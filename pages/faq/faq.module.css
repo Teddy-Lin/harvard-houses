@@ -1,6 +1,6 @@
 .blockdimage {
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
 }
 
 
@@ -37,19 +37,6 @@
   flex-direction: column;
   min-height: 100vh;
 }
-/*
-.expandcollapse {
-  width: 90px;
-  color: white;
-  font-size: 1rem;
-  padding: 5px;
-  margin: 2px;
-  background-color:   #17288C;
-  position:absolute;
-  height:30px;
-  right:190px;
-  top:175px;
-} */
 
 .subtitle {
   font-size: 30px;
