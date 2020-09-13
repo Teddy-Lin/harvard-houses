@@ -10,6 +10,7 @@ import Box from '@material-ui/core/Box';
 import HouseVideo from './housevideo.js';
 import HouseInfo from './houseinfo.js';
 import HouseInstagram from './houseinstagram.js';
+import CommentBox from './../comments/index.js';
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -84,6 +85,7 @@ export default function HouseTab() {
           <HouseInfo/>
         </TabPanel>
         <TabPanel value={value} index={1} dir={theme.direction}>
+          <CommentBox/>
         </TabPanel>
         <TabPanel value={value} index={2} dir={theme.direction}>
         </TabPanel>
