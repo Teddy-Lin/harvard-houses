@@ -10782,21 +10782,22 @@ function toVal(mix) {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: 'PT Sans', sans-serif;\n  padding: 2rem;\n}\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n.comments_comment-box__1qrxv {\n  max-width: 37.5rem;\n  color: #fff;\n  background-color: #909090;\n  border-radius: 0.875rem;\n  padding: 0.2rem 1rem 2rem;\n}\n.comments_comment-form__1Sz_w {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.comments_comment-form-fields__1VvzK {\n  margin-bottom: 0.25rem;\n}\n.comments_comment-form-actions__cKbMj {\n\n}\n.comments_comment-count__3CQ6j {\n  color: $dark-grey;\n}\n#comments_comment-reveal__1ciQd {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n.comments_comment__4ex0s {\n  border-top: 0.125rem solid $dark-grey;\n}\n.comments_comment-body__rngQu {\n  font-style: italic;\n  margin-left: 1rem;\n}\n.comments_comment-footer__3flsw {\n  margin-bottom: 1rem;\n}\n.comments_comment-footer-delete__35MDS {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,kCAAkC;EAClC,aAAa;AACf;;AAEA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;AAEA;EACE,kBAAkB;EAClB,WAAW;EACX,yBAAyB;EACzB,uBAAuB;EACvB,yBAAyB;AAC3B;AACA;EACE,sBAAsB;EACtB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;AACA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,YAAY;EACZ,0BAA0B;EAC1B,WAAW;AACb;AACA;EACE,qCAAqC;AACvC;AACA;EACE,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,mBAAmB;AACrB;AACA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: 'PT Sans', sans-serif;\n  padding: 2rem;\n}\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n.comment-box {\n  max-width: 37.5rem;\n  color: #fff;\n  background-color: #909090;\n  border-radius: 0.875rem;\n  padding: 0.2rem 1rem 2rem;\n}\n.comment-form {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n.comment-form-fields {\n  margin-bottom: 0.25rem;\n}\n.comment-form-actions {\n\n}\n.comment-count {\n  color: $dark-grey;\n}\n#comment-reveal {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n.comment {\n  border-top: 0.125rem solid $dark-grey;\n}\n.comment-body {\n  font-style: italic;\n  margin-left: 1rem;\n}\n.comment-footer {\n  margin-bottom: 1rem;\n}\n.comment-footer-delete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
+exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.comments_commentbox__cyiis {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.comments_commentform__zA3xH {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comments_comment__4ex0s {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.comments_commentheader__2tv7f {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.comments_commentbody__31RQl {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.comments_commentfooter__3BGAc {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.comments_commentformfields__2zB0n {\n  margin-bottom: 0.25rem;\n}\n.comments_commentformactions__2m81L {\n\n}\n.comments_commentcount__2xJW4 {\n  color: $dark-grey;\n}\n.comments_commentreveal__NmTN6 {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.comments_commentfooterdelete__2VX2J {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,8IAA8I;AAChJ;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,sBAAsB;EACtB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,sBAAsB;EACtB,aAAa;AACf;AACA;AACA;;;;;;;;;;;;;AAaA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;;AAGA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,YAAY;EACZ,0BAA0B;EAC1B,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.commentbox {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.commentform {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comment {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.commentheader {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.commentbody {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.commentfooter {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.commentformfields {\n  margin-bottom: 0.25rem;\n}\n.commentformactions {\n\n}\n.commentcount {\n  color: $dark-grey;\n}\n.commentreveal {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.commentfooterdelete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"body": "comments_body__19GsD",
-	"button": "comments_button__1T1sz",
-	"comment-box": "comments_comment-box__1qrxv",
-	"comment-form": "comments_comment-form__1Sz_w",
-	"comment-form-fields": "comments_comment-form-fields__1VvzK",
-	"comment-form-actions": "comments_comment-form-actions__cKbMj",
-	"comment-count": "comments_comment-count__3CQ6j",
-	"comment-reveal": "comments_comment-reveal__1ciQd",
+	"commentbox": "comments_commentbox__cyiis",
+	"commentform": "comments_commentform__zA3xH",
 	"comment": "comments_comment__4ex0s",
-	"comment-body": "comments_comment-body__rngQu",
-	"comment-footer": "comments_comment-footer__3flsw",
-	"comment-footer-delete": "comments_comment-footer-delete__35MDS"
+	"commentheader": "comments_commentheader__2tv7f",
+	"commentbody": "comments_commentbody__31RQl",
+	"commentfooter": "comments_commentfooter__3BGAc",
+	"button": "comments_button__1T1sz",
+	"commentformfields": "comments_commentformfields__2zB0n",
+	"commentformactions": "comments_commentformactions__2m81L",
+	"commentcount": "comments_commentcount__2xJW4",
+	"commentreveal": "comments_commentreveal__NmTN6",
+	"commentfooterdelete": "comments_commentfooterdelete__2VX2J"
 };
 
 /***/ }),
@@ -30655,16 +30656,16 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
       showComments: false,
       comments: [{
         id: 1,
-        author: "landiggity",
-        body: "This is my first comment on this forum so don't be a dick"
+        author: "coolboy",
+        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
       }, {
         id: 2,
-        author: "scarlett-jo",
-        body: "That's a mighty fine comment you've got there my good looking fellow..."
+        author: "scarlett",
+        body: "Cabot has big rooms"
       }, {
         id: 3,
-        author: "rosco",
-        body: "What is the meaning of all of this 'React' mumbo-jumbo?"
+        author: "Movie Star",
+        body: "Adams has rats."
       }]
     };
     return _this;
@@ -30680,7 +30681,7 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
       if (this.state.showComments) {
         buttonText = 'Hide Comments';
         commentNodes = __jsx("div", {
-          className: "comment-list",
+          className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentlist,
           __self: this,
           __source: {
             fileName: _jsxFileName,
@@ -30691,7 +30692,7 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
       }
 
       return __jsx("div", {
-        className: "comment-box",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentbox,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30714,7 +30715,7 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
           columnNumber: 9
         }
       }), __jsx("button", {
-        id: "comment-reveal",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentreveal,
         onClick: this.handleClick.bind(this),
         __self: this,
         __source: {
@@ -30730,7 +30731,7 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
           columnNumber: 9
         }
       }, "Comments"), __jsx("h4", {
-        className: "comment-count",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentcount,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30814,7 +30815,7 @@ var CommentForm = /*#__PURE__*/function (_React$Component2) {
       var _this3 = this;
 
       return __jsx("form", {
-        className: "comment-form",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentform,
         onSubmit: this.handleSubmit.bind(this),
         __self: this,
         __source: {
@@ -30823,7 +30824,7 @@ var CommentForm = /*#__PURE__*/function (_React$Component2) {
           columnNumber: 7
         }
       }, __jsx("div", {
-        className: "comment-form-fields",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentformfields,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30863,7 +30864,7 @@ var CommentForm = /*#__PURE__*/function (_React$Component2) {
           columnNumber: 11
         }
       })), __jsx("div", {
-        className: "comment-form-actions",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentformactions,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30911,7 +30912,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
     key: "render",
     value: function render() {
       return __jsx("div", {
-        className: "comment",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.comment,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30919,7 +30920,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
           columnNumber: 7
         }
       }, __jsx("p", {
-        className: "comment-header",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentheader,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30927,7 +30928,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
           columnNumber: 9
         }
       }, this.props.author), __jsx("p", {
-        className: "comment-body",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentbody,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30935,7 +30936,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
           columnNumber: 9
         }
       }, this.props.body), __jsx("div", {
-        className: "comment-footer",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentfooter,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -30944,7 +30945,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
         }
       }, __jsx("a", {
         href: "#",
-        className: "comment-footer-delete",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentfooterdelete,
         onClick: this.deleteComment,
         __self: this,
         __source: {
@@ -30957,7 +30958,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
   }, {
     key: "deleteComment",
     value: function deleteComment() {
-      alert("-- DELETE Comment Functionality COMMING SOON...");
+      alert(" DELETE Comment Functionality COMMING SOON...");
     }
   }]);
 
@@ -33051,7 +33052,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 4:
+/***/ 1:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhouse&absolutePagePath=%2FUsers%2Fteddylin%2FDesktop%2Fharvard-houses%2Fpages%2Fhouse%2Findex.js ***!
   \***********************************************************************************************************************************************/
@@ -33074,5 +33075,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=house.js.map

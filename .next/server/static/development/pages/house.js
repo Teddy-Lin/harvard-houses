@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 6);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1794,17 +1794,18 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 // Exports
 module.exports = {
 	"body": "comments_body__19GsD",
-	"button": "comments_button__1T1sz",
-	"comment-box": "comments_comment-box__1qrxv",
-	"comment-form": "comments_comment-form__1Sz_w",
-	"comment-form-fields": "comments_comment-form-fields__1VvzK",
-	"comment-form-actions": "comments_comment-form-actions__cKbMj",
-	"comment-count": "comments_comment-count__3CQ6j",
-	"comment-reveal": "comments_comment-reveal__1ciQd",
+	"commentbox": "comments_commentbox__cyiis",
+	"commentform": "comments_commentform__zA3xH",
 	"comment": "comments_comment__4ex0s",
-	"comment-body": "comments_comment-body__rngQu",
-	"comment-footer": "comments_comment-footer__3flsw",
-	"comment-footer-delete": "comments_comment-footer-delete__35MDS"
+	"commentheader": "comments_commentheader__2tv7f",
+	"commentbody": "comments_commentbody__31RQl",
+	"commentfooter": "comments_commentfooter__3BGAc",
+	"button": "comments_button__1T1sz",
+	"commentformfields": "comments_commentformfields__2zB0n",
+	"commentformactions": "comments_commentformactions__2m81L",
+	"commentcount": "comments_commentcount__2xJW4",
+	"commentreveal": "comments_commentreveal__NmTN6",
+	"commentfooterdelete": "comments_commentfooterdelete__2VX2J"
 };
 
 /***/ }),
@@ -1834,16 +1835,16 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
       showComments: false,
       comments: [{
         id: 1,
-        author: "landiggity",
-        body: "This is my first comment on this forum so don't be a dick"
+        author: "coolboy",
+        body: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum"
       }, {
         id: 2,
-        author: "scarlett-jo",
-        body: "That's a mighty fine comment you've got there my good looking fellow..."
+        author: "scarlett",
+        body: "Cabot has big rooms"
       }, {
         id: 3,
-        author: "rosco",
-        body: "What is the meaning of all of this 'React' mumbo-jumbo?"
+        author: "Movie Star",
+        body: "Adams has rats."
       }]
     };
   }
@@ -1856,7 +1857,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     if (this.state.showComments) {
       buttonText = 'Hide Comments';
       commentNodes = __jsx("div", {
-        className: "comment-list",
+        className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentlist,
         __self: this,
         __source: {
           fileName: _jsxFileName,
@@ -1867,7 +1868,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
     }
 
     return __jsx("div", {
-      className: "comment-box",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentbox,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1890,7 +1891,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         columnNumber: 9
       }
     }), __jsx("button", {
-      id: "comment-reveal",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentreveal,
       onClick: this.handleClick.bind(this),
       __self: this,
       __source: {
@@ -1906,7 +1907,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         columnNumber: 9
       }
     }, "Comments"), __jsx("h4", {
-      className: "comment-count",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentcount,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -1965,7 +1966,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
 class CommentForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx("form", {
-      className: "comment-form",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentform,
       onSubmit: this.handleSubmit.bind(this),
       __self: this,
       __source: {
@@ -1974,7 +1975,7 @@ class CommentForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
         columnNumber: 7
       }
     }, __jsx("div", {
-      className: "comment-form-fields",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentformfields,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2010,7 +2011,7 @@ class CommentForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
         columnNumber: 11
       }
     })), __jsx("div", {
-      className: "comment-form-actions",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentformactions,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2043,7 +2044,7 @@ class CommentForm extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component
 class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   render() {
     return __jsx("div", {
-      className: "comment",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.comment,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2051,7 +2052,7 @@ class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 7
       }
     }, __jsx("p", {
-      className: "comment-header",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentheader,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2059,7 +2060,7 @@ class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 9
       }
     }, this.props.author), __jsx("p", {
-      className: "comment-body",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentbody,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2067,7 +2068,7 @@ class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
         columnNumber: 9
       }
     }, this.props.body), __jsx("div", {
-      className: "comment-footer",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentfooter,
       __self: this,
       __source: {
         fileName: _jsxFileName,
@@ -2076,7 +2077,7 @@ class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
       }
     }, __jsx("a", {
       href: "#",
-      className: "comment-footer-delete",
+      className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentfooterdelete,
       onClick: this.deleteComment,
       __self: this,
       __source: {
@@ -2088,7 +2089,7 @@ class Comment extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
   }
 
   deleteComment() {
-    alert("-- DELETE Comment Functionality COMMING SOON...");
+    alert(" DELETE Comment Functionality COMMING SOON...");
   }
 
 }
@@ -3895,7 +3896,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 6:
+/***/ 3:
 /*!************************************!*\
   !*** multi ./pages/house/index.js ***!
   \************************************/
