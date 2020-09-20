@@ -942,7 +942,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/teddylin/Desktop/harvard-houses/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/alexcheng/blockd/harvard-houses/.next");
       return error;
     }
   };

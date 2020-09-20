@@ -24,6 +24,8 @@
     "react-dom": "16.13.1",
     "react-iframe": "^1.8.0",
     "react-images-upload": "^1.2.8",
+    "react-instafeed": "^1.0.0",
+    "react-instagram-authless-feed": "github:jamesmoriarty/react-instagram-authless-feed#v1.0.2",
     "react-instagram-embed": "^1.5.0",
     "react-native-email-link": "^1.9.2",
     "react-player": "^2.4.0",
@@ -33,7 +35,10 @@
     "react-swipeable-views": "^0.13.9",
     "react-vis": "^1.11.7",
     "recompose": "^0.30.0",
-    "sass": "^1.26.10",
+    "sass": "^1.26.11",
     "tailwindcss": "^1.6.1"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0"
   }
 }

@@ -9,6 +9,7 @@ import Typography from '@material-ui/core/Typography';
 import Box from '@material-ui/core/Box';
 import HouseVideo from './housevideo.js';
 import HouseInfo from './houseinfo.js';
+import HouseImage from './houseimage.js';
 import HouseInstagram from './houseinstagram.js';
 import CommentBox from './../comments/index.js';
 
@@ -90,6 +91,7 @@ export default function HouseTab() {
         <TabPanel value={value} index={2} dir={theme.direction}>
         </TabPanel>
         <TabPanel value={value} index={3} dir={theme.direction}>
+          <HouseImage/>
         </TabPanel>
         <TabPanel value={value} index={4} dir={theme.direction}>
           <HouseVideo/>

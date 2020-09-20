@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1824,7 +1824,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _comments_module_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./comments.module.css */ "./pages/comments/comments.module.css");
 /* harmony import */ var _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_comments_module_css__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/comments/index.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/comments/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2119,6 +2119,154 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./pages/house/houseimage.js":
+/*!***********************************!*\
+  !*** ./pages/house/houseimage.js ***!
+  \***********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HouseImage; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ "react-dom");
+/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _houseimage_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./houseimage.module.css */ "./pages/house/houseimage.module.css");
+/* harmony import */ var _houseimage_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_houseimage_module_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-responsive-carousel */ "react-responsive-carousel");
+/* harmony import */ var react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/houseimage.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+class HouseImage extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
+  render() {
+    return __jsx(react_responsive_carousel__WEBPACK_IMPORTED_MODULE_3__["Carousel"], {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 9,
+        columnNumber: 13
+      }
+    }, __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 10,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "architect.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 11,
+        columnNumber: 21
+      }
+    }), __jsx("p", {
+      className: "legend",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 21
+      }
+    }, "Legend 1")), __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "architect.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 15,
+        columnNumber: 21
+      }
+    }), __jsx("p", {
+      className: "legend",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 16,
+        columnNumber: 21
+      }
+    }, "Legend 2")), __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: "architect.png",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 21
+      }
+    }), __jsx("p", {
+      className: "legend",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 21
+      }
+    }, "Legend 3")));
+  }
+
+} // ReactDOM.render(<DemoCarousel />, document.querySelector('.demo-carousel'));
+// Don't forget to include the css in your page
+// Using webpack or parcel with a style loader
+// import styles from 'react-responsive-carousel/lib/styles/carousel.min.css';
+// Using html tag:
+// <link rel="stylesheet" href="<NODE_MODULES_FOLDER>/react-responsive-carousel/lib/styles/carousel.min.css"/>
+
+/***/ }),
+
+/***/ "./pages/house/houseimage.module.css":
+/*!*******************************************!*\
+  !*** ./pages/house/houseimage.module.css ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+	"carousel": "houseimage_carousel__3nM5J",
+	"control-arrow": "houseimage_control-arrow__14ScZ",
+	"carousel-slider": "houseimage_carousel-slider__2Dh5Y",
+	"control-disabled": "houseimage_control-disabled__zgttM",
+	"control-prev": "houseimage_control-prev__3V-cQ",
+	"control-next": "houseimage_control-next__3DdJ6",
+	"carousel-root": "houseimage_carousel-root__2kSEi",
+	"thumbs-wrapper": "houseimage_thumbs-wrapper__168rl",
+	"thumbs": "houseimage_thumbs__2cOCw",
+	"thumb": "houseimage_thumb__1W65_",
+	"selected": "houseimage_selected__3wr1U",
+	"slider-wrapper": "houseimage_slider-wrapper__9rnx4",
+	"axis-horizontal": "houseimage_axis-horizontal__2yN4G",
+	"slider": "houseimage_slider__ExPux",
+	"slide": "houseimage_slide__2RbOj",
+	"axis-vertical": "houseimage_axis-vertical__2NmNO",
+	"animated": "houseimage_animated__a9OZZ",
+	"legend": "houseimage_legend__2CXkO",
+	"control-dots": "houseimage_control-dots__2fPFk",
+	"dot": "houseimage_dot__3ef8Q",
+	"carousel-status": "houseimage_carousel-status__1DtOJ"
+};
+
+/***/ }),
+
 /***/ "./pages/house/houseinfo.js":
 /*!**********************************!*\
   !*** ./pages/house/houseinfo.js ***!
@@ -2135,7 +2283,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-instagram-embed */ "react-instagram-embed");
 /* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_instagram_embed__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/houseinfo.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/houseinfo.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
@@ -2760,89 +2908,78 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_instagram_embed__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/houseinstagram.js";
+/* harmony import */ var react_instagram_authless_feed__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-instagram-authless-feed */ "react-instagram-authless-feed");
+/* harmony import */ var react_instagram_authless_feed__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_instagram_authless_feed__WEBPACK_IMPORTED_MODULE_3__);
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/houseinstagram.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 
 
+
 function HouseInstagram() {
-  return __jsx("div", {
-    class: _houseinstagram_module_css__WEBPACK_IMPORTED_MODULE_0___default.a.container,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    url: "https://www.instagram.com/p/B-zrooXnOOz/",
-    maxWidth: 400,
-    hideCaption: true,
-    containerTagName: "div",
-    protocol: "",
-    injectScript: true,
-    onLoading: () => {},
-    onSuccess: () => {},
-    onAfterRender: () => {},
-    onFailure: () => {},
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 7
-    }
-  }), __jsx(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    url: "https://www.instagram.com/p/B9kkHx_gE4r/",
-    maxWidth: 400,
-    hideCaption: true,
-    containerTagName: "div",
-    protocol: "",
-    injectScript: true,
-    onLoading: () => {},
-    onSuccess: () => {},
-    onAfterRender: () => {},
-    onFailure: () => {},
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 7
-    }
-  }), __jsx(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    url: "https://www.instagram.com/p/CADqZrJHh3c/",
-    maxWidth: 400,
-    hideCaption: true,
-    containerTagName: "div",
-    protocol: "",
-    injectScript: true,
-    onLoading: () => {},
-    onSuccess: () => {},
-    onAfterRender: () => {},
-    onFailure: () => {},
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33,
-      columnNumber: 7
-    }
-  }), __jsx(react_instagram_embed__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    url: "https://www.instagram.com/p/B-r4m2PngeU/",
-    maxWidth: 400,
-    hideCaption: true,
-    containerTagName: "div",
-    protocol: "",
-    injectScript: true,
-    onLoading: () => {},
-    onSuccess: () => {},
-    onAfterRender: () => {},
-    onFailure: () => {},
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 7
-    }
-  }));
+  return (// <div class={styles.container}>
+    __jsx(react_instagram_authless_feed__WEBPACK_IMPORTED_MODULE_3___default.a, {
+      userName: "harvard",
+      className: "Feed",
+      classNameLoading: "Loading",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 12,
+        columnNumber: 5
+      }
+    }) //
+    //   <InstagramEmbed
+    //     url='https://www.instagram.com/p/B-zrooXnOOz/'
+    //     maxWidth={400}
+    //     hideCaption={true}
+    //     containerTagName='div'
+    //     protocol=''
+    //     injectScript
+    //     onLoading={() => {}}
+    //     onSuccess={() => {}}
+    //     onAfterRender={() => {}}
+    //     onFailure={() => {}}
+    //   />
+    //   <InstagramEmbed
+    //     url='https://www.instagram.com/p/B9kkHx_gE4r/'
+    //     maxWidth={400}
+    //     hideCaption={true}
+    //     containerTagName='div'
+    //     protocol=''
+    //     injectScript
+    //     onLoading={() => {}}
+    //     onSuccess={() => {}}
+    //     onAfterRender={() => {}}
+    //     onFailure={() => {}}
+    //   />
+    //   <InstagramEmbed
+    //     url='https://www.instagram.com/p/CADqZrJHh3c/'
+    //     maxWidth={400}
+    //     hideCaption={true}
+    //     containerTagName='div'
+    //     protocol=''
+    //     injectScript
+    //     onLoading={() => {}}
+    //     onSuccess={() => {}}
+    //     onAfterRender={() => {}}
+    //     onFailure={() => {}}
+    //   />
+    //   <InstagramEmbed
+    //     url='https://www.instagram.com/p/B-r4m2PngeU/'
+    //     maxWidth={400}
+    //     hideCaption={true}
+    //     containerTagName='div'
+    //     protocol=''
+    //     injectScript
+    //     onLoading={() => {}}
+    //     onSuccess={() => {}}
+    //     onAfterRender={() => {}}
+    //     onFailure={() => {}}
+    //   />
+    // </div>
+
+  );
 }
 
 /***/ }),
@@ -2879,7 +3016,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./housenavbar.module.css */ "./pages/house/housenavbar.module.css");
 /* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/housenavbar.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/housenavbar.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3153,9 +3290,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8__);
 /* harmony import */ var _housevideo_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./housevideo.js */ "./pages/house/housevideo.js");
 /* harmony import */ var _houseinfo_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./houseinfo.js */ "./pages/house/houseinfo.js");
-/* harmony import */ var _houseinstagram_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./houseinstagram.js */ "./pages/house/houseinstagram.js");
-/* harmony import */ var _comments_index_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./../comments/index.js */ "./pages/comments/index.js");
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/housetab.js";
+/* harmony import */ var _houseimage_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./houseimage.js */ "./pages/house/houseimage.js");
+/* harmony import */ var _houseinstagram_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./houseinstagram.js */ "./pages/house/houseinstagram.js");
+/* harmony import */ var _comments_index_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./../comments/index.js */ "./pages/comments/index.js");
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/housetab.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
@@ -3163,6 +3301,7 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+
 
 
 
@@ -3194,21 +3333,21 @@ function TabPanel(props) {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19,
+      lineNumber: 20,
       columnNumber: 5
     }
   }), value === index && __jsx(_material_ui_core_Box__WEBPACK_IMPORTED_MODULE_8___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
+      lineNumber: 27,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_7___default.a, {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27,
+      lineNumber: 28,
       columnNumber: 11
     }
   }, children)));
@@ -3243,7 +3382,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 61,
+      lineNumber: 62,
       columnNumber: 5
     }
   }, __jsx(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_4___default.a, {
@@ -3252,7 +3391,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 62,
+      lineNumber: 63,
       columnNumber: 7
     }
   }, __jsx(_material_ui_core_Tabs__WEBPACK_IMPORTED_MODULE_5___default.a, {
@@ -3265,7 +3404,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 63,
+      lineNumber: 64,
       columnNumber: 9
     }
   }, __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3273,7 +3412,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71,
+      lineNumber: 72,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3281,7 +3420,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72,
+      lineNumber: 73,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3289,7 +3428,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73,
+      lineNumber: 74,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3297,7 +3436,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74,
+      lineNumber: 75,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3305,7 +3444,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 75,
+      lineNumber: 76,
       columnNumber: 11
     }
   }), __jsx(_material_ui_core_Tab__WEBPACK_IMPORTED_MODULE_6___default.a, {
@@ -3313,7 +3452,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 76,
+      lineNumber: 77,
       columnNumber: 11
     }
   }))), __jsx(react_swipeable_views__WEBPACK_IMPORTED_MODULE_2___default.a, {
@@ -3323,7 +3462,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 79,
+      lineNumber: 80,
       columnNumber: 7
     }
   }, __jsx(TabPanel, {
@@ -3333,14 +3472,14 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 84,
+      lineNumber: 85,
       columnNumber: 9
     }
   }, __jsx(_houseinfo_js__WEBPACK_IMPORTED_MODULE_10__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 85,
+      lineNumber: 86,
       columnNumber: 11
     }
   })), __jsx(TabPanel, {
@@ -3350,14 +3489,14 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 87,
+      lineNumber: 88,
       columnNumber: 9
     }
-  }, __jsx(_comments_index_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, __jsx(_comments_index_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 88,
+      lineNumber: 89,
       columnNumber: 11
     }
   })), __jsx(TabPanel, {
@@ -3367,7 +3506,7 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 90,
+      lineNumber: 91,
       columnNumber: 9
     }
   }), __jsx(TabPanel, {
@@ -3377,24 +3516,31 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 92,
+      lineNumber: 93,
       columnNumber: 9
     }
-  }), __jsx(TabPanel, {
+  }, __jsx(_houseimage_js__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 94,
+      columnNumber: 11
+    }
+  })), __jsx(TabPanel, {
     value: value,
     index: 4,
     dir: theme.direction,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 94,
+      lineNumber: 96,
       columnNumber: 9
     }
   }, __jsx(_housevideo_js__WEBPACK_IMPORTED_MODULE_9__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 95,
+      lineNumber: 97,
       columnNumber: 11
     }
   })), __jsx(TabPanel, {
@@ -3404,14 +3550,14 @@ function HouseTab() {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 97,
+      lineNumber: 99,
       columnNumber: 9
     }
-  }, __jsx(_houseinstagram_js__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, __jsx(_houseinstagram_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 98,
+      lineNumber: 100,
       columnNumber: 11
     }
   }))));
@@ -3475,7 +3621,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./housevideo.module.css */ "./pages/house/housevideo.module.css");
 /* harmony import */ var _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_housevideo_module_css__WEBPACK_IMPORTED_MODULE_2__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/housevideo.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/housevideo.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -3656,7 +3802,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _housetab_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./housetab.js */ "./pages/house/housetab.js");
 /* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "@material-ui/core/CssBaseline");
 /* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/index.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/pages/house/index.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
@@ -3770,7 +3916,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout.module.css */ "./styles/layout.module.css");
 /* harmony import */ var _layout_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_layout_module_css__WEBPACK_IMPORTED_MODULE_3__);
-var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/styles/layout.js";
+var _jsxFileName = "/Users/alexcheng/blockd/harvard-houses/styles/layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -3896,14 +4042,14 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!************************************!*\
   !*** multi ./pages/house/index.js ***!
   \************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/teddylin/Desktop/harvard-houses/pages/house/index.js */"./pages/house/index.js");
+module.exports = __webpack_require__(/*! /Users/alexcheng/blockd/harvard-houses/pages/house/index.js */"./pages/house/index.js");
 
 
 /***/ }),
@@ -4040,6 +4186,17 @@ module.exports = require("react-bootstrap/Carousel");
 
 /***/ }),
 
+/***/ "react-dom":
+/*!****************************!*\
+  !*** external "react-dom" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-dom");
+
+/***/ }),
+
 /***/ "react-iframe":
 /*!*******************************!*\
   !*** external "react-iframe" ***!
@@ -4048,6 +4205,17 @@ module.exports = require("react-bootstrap/Carousel");
 /***/ (function(module, exports) {
 
 module.exports = require("react-iframe");
+
+/***/ }),
+
+/***/ "react-instagram-authless-feed":
+/*!************************************************!*\
+  !*** external "react-instagram-authless-feed" ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-instagram-authless-feed");
 
 /***/ }),
 
@@ -4081,6 +4249,17 @@ module.exports = require("react-is");
 /***/ (function(module, exports) {
 
 module.exports = require("react-player");
+
+/***/ }),
+
+/***/ "react-responsive-carousel":
+/*!********************************************!*\
+  !*** external "react-responsive-carousel" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("react-responsive-carousel");
 
 /***/ }),
 
