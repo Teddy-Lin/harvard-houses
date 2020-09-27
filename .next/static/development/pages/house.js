@@ -10773,292 +10773,6 @@ function toVal(mix) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/comments/comments.module.css ***!
-  \***********************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.comments_commentbox__cyiis {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.comments_commentform__zA3xH {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comments_comment__4ex0s {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.comments_commentheader__2tv7f {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.comments_commentbody__31RQl {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.comments_commentfooter__3BGAc {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.comments_commentformfields__2zB0n {\n  margin-bottom: 0.25rem;\n}\n.comments_commentformactions__2m81L {\n\n}\n.comments_commentcount__2xJW4 {\n  color: $dark-grey;\n}\n.comments_commentreveal__NmTN6 {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.comments_commentfooterdelete__2VX2J {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,8IAA8I;AAChJ;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,sBAAsB;EACtB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,sBAAsB;EACtB,aAAa;AACf;AACA;AACA;;;;;;;;;;;;;AAaA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;;AAGA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,YAAY;EACZ,0BAA0B;EAC1B,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.commentbox {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.commentform {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comment {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.commentheader {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.commentbody {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.commentfooter {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.commentformfields {\n  margin-bottom: 0.25rem;\n}\n.commentformactions {\n\n}\n.commentcount {\n  color: $dark-grey;\n}\n.commentreveal {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.commentfooterdelete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"body": "comments_body__19GsD",
-	"commentbox": "comments_commentbox__cyiis",
-	"commentform": "comments_commentform__zA3xH",
-	"comment": "comments_comment__4ex0s",
-	"commentheader": "comments_commentheader__2tv7f",
-	"commentbody": "comments_commentbody__31RQl",
-	"commentfooter": "comments_commentfooter__3BGAc",
-	"button": "comments_button__1T1sz",
-	"commentformfields": "comments_commentformfields__2zB0n",
-	"commentformactions": "comments_commentformactions__2m81L",
-	"commentcount": "comments_commentcount__2xJW4",
-	"commentreveal": "comments_commentreveal__NmTN6",
-	"commentfooterdelete": "comments_commentfooterdelete__2VX2J"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css":
-/*!*****************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/house.module.css ***!
-  \*****************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".house_background__3e8Ip {\n  background-color: #EBEBEB;\n\n}\n\n.house_video__1q9k4 {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.house_container__2exjc {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.house_blockdimage__wWtg2 {\n  height: 100vh;\n  width: 100vw;\n}\n\n.house_blockdtitle__GROW_ {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.house_boxes__1AAHA {\n  text-align: center;\n}\n\n.house_box__1z7CI {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.house_name__19JPA {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.house_bio__2G5De {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.house_pics__2ri3w {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.house_pics__2ri3w:hover {\n  -webkit-filter: drop-shadow(8px 8px 10px gray);\n          filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: -webkit-filter 2s;\n  transition: filter 2s;\n  transition: filter 2s, -webkit-filter 2s;\n}\n\n.house_pics__2ri3w img {\n  width: 150%;\n  height: 150%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/house.module.css"],"names":[],"mappings":"AAAA;EACE,yBAAyB;;AAE3B;;AAEA;EACE;;;;qCAImC;EACnC;;;;;gBAKc;EACd,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;;EAEE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;;AAGA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;EACrB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;AACd;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,qBAAqB;IACrB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;EAC9I;6BAC2B;AAC7B;;;AAGA;EACE,YAAY;EACZ,gBAAgB;EAChB,wBAAwB;EACxB,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,8CAAsC;UAAtC,sCAAsC;EACtC,qBAAqB;EACrB,sBAAsB;EACtB,6BAAqB;EAArB,qBAAqB;EAArB,wCAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;AACzB","file":"house.module.css","sourcesContent":[".background {\n  background-color: #EBEBEB;\n\n}\n\n.video {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.container {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.blockdimage {\n  height: 100vh;\n  width: 100vw;\n}\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.boxes {\n  text-align: center;\n}\n\n.box {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.pics {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.pics:hover {\n  filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: filter 2s;\n}\n\n.pics img {\n  width: 150%;\n  height: 150%;\n  object-fit: cover;\n  object-position: center;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"background": "house_background__3e8Ip",
-	"video": "house_video__1q9k4",
-	"container": "house_container__2exjc",
-	"blockdimage": "house_blockdimage__wWtg2",
-	"blockdtitle": "house_blockdtitle__GROW_",
-	"boxes": "house_boxes__1AAHA",
-	"box": "house_box__1z7CI",
-	"name": "house_name__19JPA",
-	"bio": "house_bio__2G5De",
-	"pics": "house_pics__2ri3w"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseimage.module.css ***!
-  \**********************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ,.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ{transition:all .25s ease-in;opacity:.4;filter:alpha(opacity=40);position:absolute;z-index:2;top:20px;background:none;border:0;font-size:32px;cursor:pointer}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ:hover{opacity:1;filter:alpha(opacity=100)}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ:before,.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ:before{margin:0 5px;display:inline-block;border-top:8px solid transparent;border-bottom:8px solid transparent;content:''}.houseimage_carousel__3nM5J .houseimage_control-disabled__zgttM.houseimage_control-arrow__14ScZ{opacity:0;filter:alpha(opacity=0);cursor:inherit;display:none}.houseimage_carousel__3nM5J .houseimage_control-prev__3V-cQ.houseimage_control-arrow__14ScZ{left:0}.houseimage_carousel__3nM5J .houseimage_control-prev__3V-cQ.houseimage_control-arrow__14ScZ:before{border-right:8px solid #fff}.houseimage_carousel__3nM5J .houseimage_control-next__3DdJ6.houseimage_control-arrow__14ScZ{right:0}.houseimage_carousel__3nM5J .houseimage_control-next__3DdJ6.houseimage_control-arrow__14ScZ:before{border-left:8px solid #fff}.houseimage_carousel-root__2kSEi{outline:none}.houseimage_carousel__3nM5J{position:relative;width:100%}.houseimage_carousel__3nM5J *{box-sizing:border-box}.houseimage_carousel__3nM5J img{width:100%;display:inline-block;pointer-events:none}.houseimage_carousel__3nM5J .houseimage_carousel__3nM5J{position:relative}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ{outline:0;border:0;background:none;top:50%;margin-top:-13px;font-size:18px}.houseimage_carousel__3nM5J .houseimage_thumbs-wrapper__168rl{margin:20px;overflow:hidden}.houseimage_carousel__3nM5J .houseimage_thumbs__2cOCw{transition:all .15s ease-in;transform:translate3d(0, 0, 0);position:relative;list-style:none;white-space:nowrap}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_{transition:border .15s ease-in;display:inline-block;margin-right:6px;white-space:nowrap;overflow:hidden;border:3px solid #fff;padding:2px}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_:focus{border:3px solid #ccc;outline:none}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_.houseimage_selected__3wr1U,.houseimage_carousel__3nM5J .houseimage_thumb__1W65_:hover{border:3px solid #333}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_ img{vertical-align:top}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y{position:relative;margin:0;overflow:hidden}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ{top:0;color:#fff;font-size:26px;bottom:0;margin-top:0;padding:5px}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ:hover{background:rgba(0,0,0,0.2)}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4{overflow:hidden;margin:auto;width:100%;transition:height .15s ease-in}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-horizontal__2yN4G .houseimage_slider__ExPux{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-horizontal__2yN4G .houseimage_slider__ExPux .houseimage_slide__2RbOj{flex-direction:column;flex-flow:column}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-vertical__2NmNO{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-vertical__2NmNO .houseimage_slider__ExPux{flex-direction:column}.houseimage_carousel__3nM5J .houseimage_slider__ExPux{margin:0;padding:0;position:relative;list-style:none;width:100%}.houseimage_carousel__3nM5J .houseimage_slider__ExPux.houseimage_animated__a9OZZ{transition:all .35s ease-in-out}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj{min-width:100%;margin:0;position:relative;text-align:center;background:#000}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj img{width:100%;vertical-align:top;border:0}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj iframe{display:inline-block;width:calc(100% - 80px);margin:0 40px 40px;border:0}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj .houseimage_legend__2CXkO{transition:all .5s ease-in-out;position:absolute;bottom:40px;left:50%;margin-left:-45%;width:90%;border-radius:10px;background:#000;color:#fff;padding:10px;font-size:12px;text-align:center;opacity:0.25;transition:opacity .35s ease-in-out}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk{position:absolute;bottom:0;margin:10px 0;padding:0;text-align:center;width:100%}@media (min-width: 960px){.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk{bottom:0}}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q{transition:opacity .25s ease-in;opacity:.3;filter:alpha(opacity=30);box-shadow:1px 1px 2px rgba(0,0,0,0.9);background:#fff;border-radius:50%;width:8px;height:8px;cursor:pointer;display:inline-block;margin:0 8px}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q.houseimage_selected__3wr1U,.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q:hover{opacity:1;filter:alpha(opacity=100)}.houseimage_carousel__3nM5J .houseimage_carousel-status__1DtOJ{position:absolute;top:0;right:0;padding:5px;font-size:10px;text-shadow:1px 1px 1px rgba(0,0,0,0.9);color:#fff}.houseimage_carousel__3nM5J:hover .houseimage_slide__2RbOj .houseimage_legend__2CXkO{opacity:1}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseimage.module.css"],"names":[],"mappings":"AAAA,4JAAsM,2BAA2B,CAAC,UAAU,CAAC,wBAAwB,CAAC,iBAAiB,CAAC,SAAS,CAAC,QAAQ,CAAC,eAAe,CAAC,QAAQ,CAAC,cAAc,CAAC,cAAc,CAAC,mEAA+B,SAAS,CAAC,yBAAyB,CAAC,0KAAgF,YAAY,CAAC,oBAAoB,CAAC,gCAAgC,CAAC,mCAAmC,CAAC,UAAU,CAAC,gGAA0C,SAAS,CAAC,uBAAuB,CAAC,cAAc,CAAC,YAAY,CAAC,4FAAsC,MAAM,CAAC,mGAA6C,2BAA2B,CAAC,4FAAsC,OAAO,CAAC,mGAA6C,0BAA0B,CAAC,iCAAe,YAAY,CAAC,4BAAU,iBAAiB,CAAC,UAAU,CAAC,8BAAqE,qBAAqB,CAAC,gCAAc,UAAU,CAAC,oBAAoB,CAAC,mBAAmB,CAAC,wDAAoB,iBAAiB,CAAC,6DAAyB,SAAS,CAAC,QAAQ,CAAC,eAAe,CAAC,OAAO,CAAC,gBAAgB,CAAC,cAAc,CAAC,8DAA0B,WAAW,CAAC,eAAe,CAAC,sDAAsJ,2BAA2B,CAAiJ,8BAA8B,CAAC,iBAAiB,CAAC,eAAe,CAAC,kBAAkB,CAAC,qDAAiK,8BAA8B,CAAC,oBAAoB,CAAC,gBAAgB,CAAC,kBAAkB,CAAC,eAAe,CAAC,qBAAqB,CAAC,WAAW,CAAC,2DAAuB,qBAAqB,CAAC,YAAY,CAAC,2IAAiD,qBAAqB,CAAC,yDAAqB,kBAAkB,CAAC,8DAA0B,iBAAiB,CAAC,QAAQ,CAAC,eAAe,CAAC,+FAAyC,KAAK,CAAC,UAAU,CAAC,cAAc,CAAC,QAAQ,CAAC,YAAY,CAAC,WAAW,CAAC,qGAA+C,0BAA0B,CAAC,8DAA0B,eAAe,CAAC,WAAW,CAAC,UAAU,CAAiJ,8BAA8B,CAAC,0HAAkD,yBAAyB,CAA0D,iBAAiB,CAAsB,YAAY,CAAC,mJAAyD,qBAAqB,CAAC,gBAAgB,CAAC,8FAAwC,yBAAyB,CAA0D,iBAAiB,CAAsB,YAAY,CAAC,wHAA8E,qBAAqB,CAAC,sDAAkB,QAAQ,CAAC,SAAS,CAAC,iBAAiB,CAAC,eAAe,CAAC,UAAU,CAAC,iFAA+K,+BAA+B,CAAC,qDAAiB,cAAc,CAAC,QAAQ,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,eAAe,CAAC,yDAAqB,UAAU,CAAC,kBAAkB,CAAC,QAAQ,CAAC,4DAAwB,oBAAoB,CAAC,uBAAuB,CAAC,kBAAkB,CAAC,QAAQ,CAAC,+EAAyK,8BAA8B,CAAC,iBAAiB,CAAC,WAAW,CAAC,QAAQ,CAAC,gBAAgB,CAAC,SAAS,CAAC,kBAAkB,CAAC,eAAe,CAAC,UAAU,CAAC,YAAY,CAAC,cAAc,CAAC,iBAAiB,CAAC,YAAY,CAAqK,mCAAmC,CAAC,4DAAwB,iBAAiB,CAAC,QAAQ,CAAC,aAAa,CAAC,SAAS,CAAC,iBAAiB,CAAC,UAAU,CAAC,0BAA0B,4DAAwB,QAAQ,CAAC,CAAC,mFAAiL,+BAA+B,CAAC,UAAU,CAAC,wBAAwB,CAAC,sCAAsC,CAAC,eAAe,CAAC,iBAAiB,CAAC,SAAS,CAAC,UAAU,CAAC,cAAc,CAAC,oBAAoB,CAAC,YAAY,CAAC,uMAAyE,SAAS,CAAC,yBAAyB,CAAC,+DAA2B,iBAAiB,CAAC,KAAK,CAAC,OAAO,CAAC,WAAW,CAAC,cAAc,CAAC,uCAAuC,CAAC,UAAU,CAAC,qFAA+B,SAAS","file":"houseimage.module.css","sourcesContent":[".carousel .control-arrow,.carousel.carousel-slider .control-arrow{-webkit-transition:all .25s ease-in;-moz-transition:all .25s ease-in;-ms-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in;opacity:.4;filter:alpha(opacity=40);position:absolute;z-index:2;top:20px;background:none;border:0;font-size:32px;cursor:pointer}.carousel .control-arrow:hover{opacity:1;filter:alpha(opacity=100)}.carousel .control-arrow:before,.carousel.carousel-slider .control-arrow:before{margin:0 5px;display:inline-block;border-top:8px solid transparent;border-bottom:8px solid transparent;content:''}.carousel .control-disabled.control-arrow{opacity:0;filter:alpha(opacity=0);cursor:inherit;display:none}.carousel .control-prev.control-arrow{left:0}.carousel .control-prev.control-arrow:before{border-right:8px solid #fff}.carousel .control-next.control-arrow{right:0}.carousel .control-next.control-arrow:before{border-left:8px solid #fff}.carousel-root{outline:none}.carousel{position:relative;width:100%}.carousel *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.carousel img{width:100%;display:inline-block;pointer-events:none}.carousel .carousel{position:relative}.carousel .control-arrow{outline:0;border:0;background:none;top:50%;margin-top:-13px;font-size:18px}.carousel .thumbs-wrapper{margin:20px;overflow:hidden}.carousel .thumbs{-webkit-transition:all .15s ease-in;-moz-transition:all .15s ease-in;-ms-transition:all .15s ease-in;-o-transition:all .15s ease-in;transition:all .15s ease-in;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);position:relative;list-style:none;white-space:nowrap}.carousel .thumb{-webkit-transition:border .15s ease-in;-moz-transition:border .15s ease-in;-ms-transition:border .15s ease-in;-o-transition:border .15s ease-in;transition:border .15s ease-in;display:inline-block;margin-right:6px;white-space:nowrap;overflow:hidden;border:3px solid #fff;padding:2px}.carousel .thumb:focus{border:3px solid #ccc;outline:none}.carousel .thumb.selected,.carousel .thumb:hover{border:3px solid #333}.carousel .thumb img{vertical-align:top}.carousel.carousel-slider{position:relative;margin:0;overflow:hidden}.carousel.carousel-slider .control-arrow{top:0;color:#fff;font-size:26px;bottom:0;margin-top:0;padding:5px}.carousel.carousel-slider .control-arrow:hover{background:rgba(0,0,0,0.2)}.carousel .slider-wrapper{overflow:hidden;margin:auto;width:100%;-webkit-transition:height .15s ease-in;-moz-transition:height .15s ease-in;-ms-transition:height .15s ease-in;-o-transition:height .15s ease-in;transition:height .15s ease-in}.carousel .slider-wrapper.axis-horizontal .slider{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-horizontal .slider .slide{flex-direction:column;flex-flow:column}.carousel .slider-wrapper.axis-vertical{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-vertical .slider{-webkit-flex-direction:column;flex-direction:column}.carousel .slider{margin:0;padding:0;position:relative;list-style:none;width:100%}.carousel .slider.animated{-webkit-transition:all .35s ease-in-out;-moz-transition:all .35s ease-in-out;-ms-transition:all .35s ease-in-out;-o-transition:all .35s ease-in-out;transition:all .35s ease-in-out}.carousel .slide{min-width:100%;margin:0;position:relative;text-align:center;background:#000}.carousel .slide img{width:100%;vertical-align:top;border:0}.carousel .slide iframe{display:inline-block;width:calc(100% - 80px);margin:0 40px 40px;border:0}.carousel .slide .legend{-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;position:absolute;bottom:40px;left:50%;margin-left:-45%;width:90%;border-radius:10px;background:#000;color:#fff;padding:10px;font-size:12px;text-align:center;opacity:0.25;-webkit-transition:opacity .35s ease-in-out;-moz-transition:opacity .35s ease-in-out;-ms-transition:opacity .35s ease-in-out;-o-transition:opacity .35s ease-in-out;transition:opacity .35s ease-in-out}.carousel .control-dots{position:absolute;bottom:0;margin:10px 0;padding:0;text-align:center;width:100%}@media (min-width: 960px){.carousel .control-dots{bottom:0}}.carousel .control-dots .dot{-webkit-transition:opacity .25s ease-in;-moz-transition:opacity .25s ease-in;-ms-transition:opacity .25s ease-in;-o-transition:opacity .25s ease-in;transition:opacity .25s ease-in;opacity:.3;filter:alpha(opacity=30);box-shadow:1px 1px 2px rgba(0,0,0,0.9);background:#fff;border-radius:50%;width:8px;height:8px;cursor:pointer;display:inline-block;margin:0 8px}.carousel .control-dots .dot.selected,.carousel .control-dots .dot:hover{opacity:1;filter:alpha(opacity=100)}.carousel .carousel-status{position:absolute;top:0;right:0;padding:5px;font-size:10px;text-shadow:1px 1px 1px rgba(0,0,0,0.9);color:#fff}.carousel:hover .slide .legend{opacity:1}\n"]}]);
-// Exports
-exports.locals = {
-	"carousel": "houseimage_carousel__3nM5J",
-	"control-arrow": "houseimage_control-arrow__14ScZ",
-	"carousel-slider": "houseimage_carousel-slider__2Dh5Y",
-	"control-disabled": "houseimage_control-disabled__zgttM",
-	"control-prev": "houseimage_control-prev__3V-cQ",
-	"control-next": "houseimage_control-next__3DdJ6",
-	"carousel-root": "houseimage_carousel-root__2kSEi",
-	"thumbs-wrapper": "houseimage_thumbs-wrapper__168rl",
-	"thumbs": "houseimage_thumbs__2cOCw",
-	"thumb": "houseimage_thumb__1W65_",
-	"selected": "houseimage_selected__3wr1U",
-	"slider-wrapper": "houseimage_slider-wrapper__9rnx4",
-	"axis-horizontal": "houseimage_axis-horizontal__2yN4G",
-	"slider": "houseimage_slider__ExPux",
-	"slide": "houseimage_slide__2RbOj",
-	"axis-vertical": "houseimage_axis-vertical__2NmNO",
-	"animated": "houseimage_animated__a9OZZ",
-	"legend": "houseimage_legend__2CXkO",
-	"control-dots": "houseimage_control-dots__2fPFk",
-	"dot": "houseimage_dot__3ef8Q",
-	"carousel-status": "houseimage_carousel-status__1DtOJ"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css":
-/*!*********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseinfo.module.css ***!
-  \*********************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".houseinfo_boxes__xzksa {\n  text-align: center;\n  background: #f0e3c7;\n  padding: 60px 0;\n}\n\n.houseinfo_box__2Hz34 {\n  background: #243665;\n  text-align: center;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 10px;\n  vertical-align: top;\n  height: 250px;\n  width: 250px;\n  border: 3px double white;\n}\n\n.houseinfo_boxes__xzksa :hover {\n  background: #2babd9;\n}\n\n.houseinfo_name__NcAoB {\n    margin-top: 10px;\n    text-align: center;\n    color: white;\n    font-size: 11px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 400;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.houseinfo_bio__sZ41u {\n  color: white;\n  font-size: 20px;\n  font-weight: 450;\n  line-height: 1.4;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.houseinfo_pics__56SLZ img {\n  margin-top: 20px;\n  width: 100px;\n  height: 100px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n  z-index: 1;\n}\n\n.houseinfo_pics__56SLZ:hover {\n  -webkit-filter: sepia(30%);\n          filter: sepia(30%);\n  transition: -webkit-filter 0.5s;\n  transition: filter 0.5s;\n  transition: filter 0.5s, -webkit-filter 0.5s;\n  z-index: 1;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseinfo.module.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;EACZ,wBAAwB;AAC1B;;AAEA;EACE,mBAAmB;AACrB;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;AAChJ;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,aAAa;EACb,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,0BAAkB;UAAlB,kBAAkB;EAClB,+BAAuB;EAAvB,uBAAuB;EAAvB,4CAAuB;EACvB,UAAU;AACZ","file":"houseinfo.module.css","sourcesContent":[".boxes {\n  text-align: center;\n  background: #f0e3c7;\n  padding: 60px 0;\n}\n\n.box {\n  background: #243665;\n  text-align: center;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 10px;\n  vertical-align: top;\n  height: 250px;\n  width: 250px;\n  border: 3px double white;\n}\n\n.boxes :hover {\n  background: #2babd9;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    color: white;\n    font-size: 11px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 400;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: white;\n  font-size: 20px;\n  font-weight: 450;\n  line-height: 1.4;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.pics img {\n  margin-top: 20px;\n  width: 100px;\n  height: 100px;\n  object-fit: cover;\n  object-position: center;\n  z-index: 1;\n}\n\n.pics:hover {\n  filter: sepia(30%);\n  transition: filter 0.5s;\n  z-index: 1;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"boxes": "houseinfo_boxes__xzksa",
-	"box": "houseinfo_box__2Hz34",
-	"name": "houseinfo_name__NcAoB",
-	"bio": "houseinfo_bio__sZ41u",
-	"pics": "houseinfo_pics__56SLZ"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css":
-/*!**************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseinstagram.module.css ***!
-  \**************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".houseinstagram_container__1dluG {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseinstagram.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,6BAA6B;AAC/B","file":"houseinstagram.module.css","sourcesContent":[".container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"container": "houseinstagram_container__1dluG"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css":
-/*!***********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/housenavbar.module.css ***!
-  \***********************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".housenavbar_header__2pPmV {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.housenavbar_item__24cr- {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.housenavbar_item__24cr-:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/housenavbar.module.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"housenavbar.module.css","sourcesContent":[".header {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
-// Exports
-exports.locals = {
-	"header": "housenavbar_header__2pPmV",
-	"item": "housenavbar_item__24cr-"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/housevideo.module.css ***!
-  \**********************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".housevideo_filler__3-07L {\n  background: #e3f5ff;\n  height: 60px;\n}\n\n.housevideo_all__3lNiz {\n  background: #e3f5ff;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/housevideo.module.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,YAAY;AACd;;AAEA;EACE,mBAAmB;AACrB","file":"housevideo.module.css","sourcesContent":[".filler {\n  background: #e3f5ff;\n  height: 60px;\n}\n\n.all {\n  background: #e3f5ff;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"filler": "housevideo_filler__3-07L",
-	"all": "housevideo_all__3lNiz"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css":
-/*!*************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles/layout.module.css ***!
-  \*************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".layout_header__1OJ41 {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_bottomheader__3-_Kh {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_item__fe16O {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.layout_item__fe16O:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/styles/layout.module.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,MAAM;EACN,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,yBAAyB;EACzB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"layout.module.css","sourcesContent":[".header {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
-// Exports
-exports.locals = {
-	"header": "layout_header__1OJ41",
-	"bottomheader": "layout_bottomheader__3-_Kh",
-	"item": "layout_item__fe16O"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], "{").concat(content, "}");
-      }
-
-      return content;
-    }).join('');
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      // eslint-disable-next-line prefer-destructuring
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = modules[_i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
-/***/ }),
-
 /***/ "./node_modules/css-vendor/dist/css-vendor.esm.js":
 /*!********************************************************!*\
   !*** ./node_modules/css-vendor/dist/css-vendor.esm.js ***!
@@ -18096,6 +17810,292 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/comments/comments.module.css ***!
+  \*****************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.comments_commentbox__cyiis {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.comments_commentform__zA3xH {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comments_comment__4ex0s {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.comments_commentheader__2tv7f {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.comments_commentbody__31RQl {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.comments_commentfooter__3BGAc {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.comments_commentformfields__2zB0n {\n  margin-bottom: 0.25rem;\n}\n.comments_commentformactions__2m81L {\n\n}\n.comments_commentcount__2xJW4 {\n  color: $dark-grey;\n}\n.comments_commentreveal__NmTN6 {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.comments_commentfooterdelete__2VX2J {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,8IAA8I;AAChJ;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,sBAAsB;EACtB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,sBAAsB;EACtB,aAAa;AACf;AACA;AACA;;;;;;;;;;;;;AAaA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;;AAGA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,YAAY;EACZ,0BAA0B;EAC1B,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.commentbox {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.commentform {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comment {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.commentheader {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.commentbody {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.commentfooter {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.commentformfields {\n  margin-bottom: 0.25rem;\n}\n.commentformactions {\n\n}\n.commentcount {\n  color: $dark-grey;\n}\n.commentreveal {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.commentfooterdelete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"body": "comments_body__19GsD",
+	"commentbox": "comments_commentbox__cyiis",
+	"commentform": "comments_commentform__zA3xH",
+	"comment": "comments_comment__4ex0s",
+	"commentheader": "comments_commentheader__2tv7f",
+	"commentbody": "comments_commentbody__31RQl",
+	"commentfooter": "comments_commentfooter__3BGAc",
+	"button": "comments_button__1T1sz",
+	"commentformfields": "comments_commentformfields__2zB0n",
+	"commentformactions": "comments_commentformactions__2m81L",
+	"commentcount": "comments_commentcount__2xJW4",
+	"commentreveal": "comments_commentreveal__NmTN6",
+	"commentfooterdelete": "comments_commentfooterdelete__2VX2J"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css":
+/*!***********************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/house.module.css ***!
+  \***********************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".house_background__3e8Ip {\n  background-color: #EBEBEB;\n\n}\n\n.house_video__1q9k4 {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.house_container__2exjc {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.house_blockdimage__wWtg2 {\n  height: 100vh;\n  width: 100vw;\n}\n\n.house_blockdtitle__GROW_ {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.house_boxes__1AAHA {\n  text-align: center;\n}\n\n.house_box__1z7CI {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.house_name__19JPA {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.house_bio__2G5De {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.house_pics__2ri3w {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.house_pics__2ri3w:hover {\n  -webkit-filter: drop-shadow(8px 8px 10px gray);\n          filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: -webkit-filter 2s;\n  transition: filter 2s;\n  transition: filter 2s, -webkit-filter 2s;\n}\n\n.house_pics__2ri3w img {\n  width: 150%;\n  height: 150%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/house.module.css"],"names":[],"mappings":"AAAA;EACE,yBAAyB;;AAE3B;;AAEA;EACE;;;;qCAImC;EACnC;;;;;gBAKc;EACd,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;;EAEE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;;AAGA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;EACrB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;AACd;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,qBAAqB;IACrB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;EAC9I;6BAC2B;AAC7B;;;AAGA;EACE,YAAY;EACZ,gBAAgB;EAChB,wBAAwB;EACxB,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,8CAAsC;UAAtC,sCAAsC;EACtC,qBAAqB;EACrB,sBAAsB;EACtB,6BAAqB;EAArB,qBAAqB;EAArB,wCAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;AACzB","file":"house.module.css","sourcesContent":[".background {\n  background-color: #EBEBEB;\n\n}\n\n.video {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.container {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.blockdimage {\n  height: 100vh;\n  width: 100vw;\n}\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.boxes {\n  text-align: center;\n}\n\n.box {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.pics {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.pics:hover {\n  filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: filter 2s;\n}\n\n.pics img {\n  width: 150%;\n  height: 150%;\n  object-fit: cover;\n  object-position: center;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"background": "house_background__3e8Ip",
+	"video": "house_video__1q9k4",
+	"container": "house_container__2exjc",
+	"blockdimage": "house_blockdimage__wWtg2",
+	"blockdtitle": "house_blockdtitle__GROW_",
+	"boxes": "house_boxes__1AAHA",
+	"box": "house_box__1z7CI",
+	"name": "house_name__19JPA",
+	"bio": "house_bio__2G5De",
+	"pics": "house_pics__2ri3w"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseimage.module.css ***!
+  \****************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ,.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ{transition:all .25s ease-in;opacity:.4;filter:alpha(opacity=40);position:absolute;z-index:2;top:20px;background:none;border:0;font-size:32px;cursor:pointer}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ:hover{opacity:1;filter:alpha(opacity=100)}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ:before,.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ:before{margin:0 5px;display:inline-block;border-top:8px solid transparent;border-bottom:8px solid transparent;content:''}.houseimage_carousel__3nM5J .houseimage_control-disabled__zgttM.houseimage_control-arrow__14ScZ{opacity:0;filter:alpha(opacity=0);cursor:inherit;display:none}.houseimage_carousel__3nM5J .houseimage_control-prev__3V-cQ.houseimage_control-arrow__14ScZ{left:0}.houseimage_carousel__3nM5J .houseimage_control-prev__3V-cQ.houseimage_control-arrow__14ScZ:before{border-right:8px solid #fff}.houseimage_carousel__3nM5J .houseimage_control-next__3DdJ6.houseimage_control-arrow__14ScZ{right:0}.houseimage_carousel__3nM5J .houseimage_control-next__3DdJ6.houseimage_control-arrow__14ScZ:before{border-left:8px solid #fff}.houseimage_carousel-root__2kSEi{outline:none}.houseimage_carousel__3nM5J{position:relative;width:100%}.houseimage_carousel__3nM5J *{box-sizing:border-box}.houseimage_carousel__3nM5J img{width:100%;display:inline-block;pointer-events:none}.houseimage_carousel__3nM5J .houseimage_carousel__3nM5J{position:relative}.houseimage_carousel__3nM5J .houseimage_control-arrow__14ScZ{outline:0;border:0;background:none;top:50%;margin-top:-13px;font-size:18px}.houseimage_carousel__3nM5J .houseimage_thumbs-wrapper__168rl{margin:20px;overflow:hidden}.houseimage_carousel__3nM5J .houseimage_thumbs__2cOCw{transition:all .15s ease-in;transform:translate3d(0, 0, 0);position:relative;list-style:none;white-space:nowrap}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_{transition:border .15s ease-in;display:inline-block;margin-right:6px;white-space:nowrap;overflow:hidden;border:3px solid #fff;padding:2px}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_:focus{border:3px solid #ccc;outline:none}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_.houseimage_selected__3wr1U,.houseimage_carousel__3nM5J .houseimage_thumb__1W65_:hover{border:3px solid #333}.houseimage_carousel__3nM5J .houseimage_thumb__1W65_ img{vertical-align:top}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y{position:relative;margin:0;overflow:hidden}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ{top:0;color:#fff;font-size:26px;bottom:0;margin-top:0;padding:5px}.houseimage_carousel__3nM5J.houseimage_carousel-slider__2Dh5Y .houseimage_control-arrow__14ScZ:hover{background:rgba(0,0,0,0.2)}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4{overflow:hidden;margin:auto;width:100%;transition:height .15s ease-in}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-horizontal__2yN4G .houseimage_slider__ExPux{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-horizontal__2yN4G .houseimage_slider__ExPux .houseimage_slide__2RbOj{flex-direction:column;flex-flow:column}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-vertical__2NmNO{-ms-box-orient:horizontal;display:-moz-flex;display:flex}.houseimage_carousel__3nM5J .houseimage_slider-wrapper__9rnx4.houseimage_axis-vertical__2NmNO .houseimage_slider__ExPux{flex-direction:column}.houseimage_carousel__3nM5J .houseimage_slider__ExPux{margin:0;padding:0;position:relative;list-style:none;width:100%}.houseimage_carousel__3nM5J .houseimage_slider__ExPux.houseimage_animated__a9OZZ{transition:all .35s ease-in-out}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj{min-width:100%;margin:0;position:relative;text-align:center;background:#000}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj img{width:100%;vertical-align:top;border:0}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj iframe{display:inline-block;width:calc(100% - 80px);margin:0 40px 40px;border:0}.houseimage_carousel__3nM5J .houseimage_slide__2RbOj .houseimage_legend__2CXkO{transition:all .5s ease-in-out;position:absolute;bottom:40px;left:50%;margin-left:-45%;width:90%;border-radius:10px;background:#000;color:#fff;padding:10px;font-size:12px;text-align:center;opacity:0.25;transition:opacity .35s ease-in-out}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk{position:absolute;bottom:0;margin:10px 0;padding:0;text-align:center;width:100%}@media (min-width: 960px){.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk{bottom:0}}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q{transition:opacity .25s ease-in;opacity:.3;filter:alpha(opacity=30);box-shadow:1px 1px 2px rgba(0,0,0,0.9);background:#fff;border-radius:50%;width:8px;height:8px;cursor:pointer;display:inline-block;margin:0 8px}.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q.houseimage_selected__3wr1U,.houseimage_carousel__3nM5J .houseimage_control-dots__2fPFk .houseimage_dot__3ef8Q:hover{opacity:1;filter:alpha(opacity=100)}.houseimage_carousel__3nM5J .houseimage_carousel-status__1DtOJ{position:absolute;top:0;right:0;padding:5px;font-size:10px;text-shadow:1px 1px 1px rgba(0,0,0,0.9);color:#fff}.houseimage_carousel__3nM5J:hover .houseimage_slide__2RbOj .houseimage_legend__2CXkO{opacity:1}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseimage.module.css"],"names":[],"mappings":"AAAA,4JAAsM,2BAA2B,CAAC,UAAU,CAAC,wBAAwB,CAAC,iBAAiB,CAAC,SAAS,CAAC,QAAQ,CAAC,eAAe,CAAC,QAAQ,CAAC,cAAc,CAAC,cAAc,CAAC,mEAA+B,SAAS,CAAC,yBAAyB,CAAC,0KAAgF,YAAY,CAAC,oBAAoB,CAAC,gCAAgC,CAAC,mCAAmC,CAAC,UAAU,CAAC,gGAA0C,SAAS,CAAC,uBAAuB,CAAC,cAAc,CAAC,YAAY,CAAC,4FAAsC,MAAM,CAAC,mGAA6C,2BAA2B,CAAC,4FAAsC,OAAO,CAAC,mGAA6C,0BAA0B,CAAC,iCAAe,YAAY,CAAC,4BAAU,iBAAiB,CAAC,UAAU,CAAC,8BAAqE,qBAAqB,CAAC,gCAAc,UAAU,CAAC,oBAAoB,CAAC,mBAAmB,CAAC,wDAAoB,iBAAiB,CAAC,6DAAyB,SAAS,CAAC,QAAQ,CAAC,eAAe,CAAC,OAAO,CAAC,gBAAgB,CAAC,cAAc,CAAC,8DAA0B,WAAW,CAAC,eAAe,CAAC,sDAAsJ,2BAA2B,CAAiJ,8BAA8B,CAAC,iBAAiB,CAAC,eAAe,CAAC,kBAAkB,CAAC,qDAAiK,8BAA8B,CAAC,oBAAoB,CAAC,gBAAgB,CAAC,kBAAkB,CAAC,eAAe,CAAC,qBAAqB,CAAC,WAAW,CAAC,2DAAuB,qBAAqB,CAAC,YAAY,CAAC,2IAAiD,qBAAqB,CAAC,yDAAqB,kBAAkB,CAAC,8DAA0B,iBAAiB,CAAC,QAAQ,CAAC,eAAe,CAAC,+FAAyC,KAAK,CAAC,UAAU,CAAC,cAAc,CAAC,QAAQ,CAAC,YAAY,CAAC,WAAW,CAAC,qGAA+C,0BAA0B,CAAC,8DAA0B,eAAe,CAAC,WAAW,CAAC,UAAU,CAAiJ,8BAA8B,CAAC,0HAAkD,yBAAyB,CAA0D,iBAAiB,CAAsB,YAAY,CAAC,mJAAyD,qBAAqB,CAAC,gBAAgB,CAAC,8FAAwC,yBAAyB,CAA0D,iBAAiB,CAAsB,YAAY,CAAC,wHAA8E,qBAAqB,CAAC,sDAAkB,QAAQ,CAAC,SAAS,CAAC,iBAAiB,CAAC,eAAe,CAAC,UAAU,CAAC,iFAA+K,+BAA+B,CAAC,qDAAiB,cAAc,CAAC,QAAQ,CAAC,iBAAiB,CAAC,iBAAiB,CAAC,eAAe,CAAC,yDAAqB,UAAU,CAAC,kBAAkB,CAAC,QAAQ,CAAC,4DAAwB,oBAAoB,CAAC,uBAAuB,CAAC,kBAAkB,CAAC,QAAQ,CAAC,+EAAyK,8BAA8B,CAAC,iBAAiB,CAAC,WAAW,CAAC,QAAQ,CAAC,gBAAgB,CAAC,SAAS,CAAC,kBAAkB,CAAC,eAAe,CAAC,UAAU,CAAC,YAAY,CAAC,cAAc,CAAC,iBAAiB,CAAC,YAAY,CAAqK,mCAAmC,CAAC,4DAAwB,iBAAiB,CAAC,QAAQ,CAAC,aAAa,CAAC,SAAS,CAAC,iBAAiB,CAAC,UAAU,CAAC,0BAA0B,4DAAwB,QAAQ,CAAC,CAAC,mFAAiL,+BAA+B,CAAC,UAAU,CAAC,wBAAwB,CAAC,sCAAsC,CAAC,eAAe,CAAC,iBAAiB,CAAC,SAAS,CAAC,UAAU,CAAC,cAAc,CAAC,oBAAoB,CAAC,YAAY,CAAC,uMAAyE,SAAS,CAAC,yBAAyB,CAAC,+DAA2B,iBAAiB,CAAC,KAAK,CAAC,OAAO,CAAC,WAAW,CAAC,cAAc,CAAC,uCAAuC,CAAC,UAAU,CAAC,qFAA+B,SAAS","file":"houseimage.module.css","sourcesContent":[".carousel .control-arrow,.carousel.carousel-slider .control-arrow{-webkit-transition:all .25s ease-in;-moz-transition:all .25s ease-in;-ms-transition:all .25s ease-in;-o-transition:all .25s ease-in;transition:all .25s ease-in;opacity:.4;filter:alpha(opacity=40);position:absolute;z-index:2;top:20px;background:none;border:0;font-size:32px;cursor:pointer}.carousel .control-arrow:hover{opacity:1;filter:alpha(opacity=100)}.carousel .control-arrow:before,.carousel.carousel-slider .control-arrow:before{margin:0 5px;display:inline-block;border-top:8px solid transparent;border-bottom:8px solid transparent;content:''}.carousel .control-disabled.control-arrow{opacity:0;filter:alpha(opacity=0);cursor:inherit;display:none}.carousel .control-prev.control-arrow{left:0}.carousel .control-prev.control-arrow:before{border-right:8px solid #fff}.carousel .control-next.control-arrow{right:0}.carousel .control-next.control-arrow:before{border-left:8px solid #fff}.carousel-root{outline:none}.carousel{position:relative;width:100%}.carousel *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.carousel img{width:100%;display:inline-block;pointer-events:none}.carousel .carousel{position:relative}.carousel .control-arrow{outline:0;border:0;background:none;top:50%;margin-top:-13px;font-size:18px}.carousel .thumbs-wrapper{margin:20px;overflow:hidden}.carousel .thumbs{-webkit-transition:all .15s ease-in;-moz-transition:all .15s ease-in;-ms-transition:all .15s ease-in;-o-transition:all .15s ease-in;transition:all .15s ease-in;-webkit-transform:translate3d(0, 0, 0);-moz-transform:translate3d(0, 0, 0);-ms-transform:translate3d(0, 0, 0);-o-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);position:relative;list-style:none;white-space:nowrap}.carousel .thumb{-webkit-transition:border .15s ease-in;-moz-transition:border .15s ease-in;-ms-transition:border .15s ease-in;-o-transition:border .15s ease-in;transition:border .15s ease-in;display:inline-block;margin-right:6px;white-space:nowrap;overflow:hidden;border:3px solid #fff;padding:2px}.carousel .thumb:focus{border:3px solid #ccc;outline:none}.carousel .thumb.selected,.carousel .thumb:hover{border:3px solid #333}.carousel .thumb img{vertical-align:top}.carousel.carousel-slider{position:relative;margin:0;overflow:hidden}.carousel.carousel-slider .control-arrow{top:0;color:#fff;font-size:26px;bottom:0;margin-top:0;padding:5px}.carousel.carousel-slider .control-arrow:hover{background:rgba(0,0,0,0.2)}.carousel .slider-wrapper{overflow:hidden;margin:auto;width:100%;-webkit-transition:height .15s ease-in;-moz-transition:height .15s ease-in;-ms-transition:height .15s ease-in;-o-transition:height .15s ease-in;transition:height .15s ease-in}.carousel .slider-wrapper.axis-horizontal .slider{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-horizontal .slider .slide{flex-direction:column;flex-flow:column}.carousel .slider-wrapper.axis-vertical{-ms-box-orient:horizontal;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-moz-flex;display:-webkit-flex;display:flex}.carousel .slider-wrapper.axis-vertical .slider{-webkit-flex-direction:column;flex-direction:column}.carousel .slider{margin:0;padding:0;position:relative;list-style:none;width:100%}.carousel .slider.animated{-webkit-transition:all .35s ease-in-out;-moz-transition:all .35s ease-in-out;-ms-transition:all .35s ease-in-out;-o-transition:all .35s ease-in-out;transition:all .35s ease-in-out}.carousel .slide{min-width:100%;margin:0;position:relative;text-align:center;background:#000}.carousel .slide img{width:100%;vertical-align:top;border:0}.carousel .slide iframe{display:inline-block;width:calc(100% - 80px);margin:0 40px 40px;border:0}.carousel .slide .legend{-webkit-transition:all .5s ease-in-out;-moz-transition:all .5s ease-in-out;-ms-transition:all .5s ease-in-out;-o-transition:all .5s ease-in-out;transition:all .5s ease-in-out;position:absolute;bottom:40px;left:50%;margin-left:-45%;width:90%;border-radius:10px;background:#000;color:#fff;padding:10px;font-size:12px;text-align:center;opacity:0.25;-webkit-transition:opacity .35s ease-in-out;-moz-transition:opacity .35s ease-in-out;-ms-transition:opacity .35s ease-in-out;-o-transition:opacity .35s ease-in-out;transition:opacity .35s ease-in-out}.carousel .control-dots{position:absolute;bottom:0;margin:10px 0;padding:0;text-align:center;width:100%}@media (min-width: 960px){.carousel .control-dots{bottom:0}}.carousel .control-dots .dot{-webkit-transition:opacity .25s ease-in;-moz-transition:opacity .25s ease-in;-ms-transition:opacity .25s ease-in;-o-transition:opacity .25s ease-in;transition:opacity .25s ease-in;opacity:.3;filter:alpha(opacity=30);box-shadow:1px 1px 2px rgba(0,0,0,0.9);background:#fff;border-radius:50%;width:8px;height:8px;cursor:pointer;display:inline-block;margin:0 8px}.carousel .control-dots .dot.selected,.carousel .control-dots .dot:hover{opacity:1;filter:alpha(opacity=100)}.carousel .carousel-status{position:absolute;top:0;right:0;padding:5px;font-size:10px;text-shadow:1px 1px 1px rgba(0,0,0,0.9);color:#fff}.carousel:hover .slide .legend{opacity:1}\n"]}]);
+// Exports
+exports.locals = {
+	"carousel": "houseimage_carousel__3nM5J",
+	"control-arrow": "houseimage_control-arrow__14ScZ",
+	"carousel-slider": "houseimage_carousel-slider__2Dh5Y",
+	"control-disabled": "houseimage_control-disabled__zgttM",
+	"control-prev": "houseimage_control-prev__3V-cQ",
+	"control-next": "houseimage_control-next__3DdJ6",
+	"carousel-root": "houseimage_carousel-root__2kSEi",
+	"thumbs-wrapper": "houseimage_thumbs-wrapper__168rl",
+	"thumbs": "houseimage_thumbs__2cOCw",
+	"thumb": "houseimage_thumb__1W65_",
+	"selected": "houseimage_selected__3wr1U",
+	"slider-wrapper": "houseimage_slider-wrapper__9rnx4",
+	"axis-horizontal": "houseimage_axis-horizontal__2yN4G",
+	"slider": "houseimage_slider__ExPux",
+	"slide": "houseimage_slide__2RbOj",
+	"axis-vertical": "houseimage_axis-vertical__2NmNO",
+	"animated": "houseimage_animated__a9OZZ",
+	"legend": "houseimage_legend__2CXkO",
+	"control-dots": "houseimage_control-dots__2fPFk",
+	"dot": "houseimage_dot__3ef8Q",
+	"carousel-status": "houseimage_carousel-status__1DtOJ"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css":
+/*!***************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseinfo.module.css ***!
+  \***************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".houseinfo_boxes__xzksa {\n  text-align: center;\n  background: #f0e3c7;\n  padding: 60px 0;\n}\n\n.houseinfo_box__2Hz34 {\n  background: #243665;\n  text-align: center;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 10px;\n  vertical-align: top;\n  height: 250px;\n  width: 250px;\n  border: 3px double white;\n}\n\n.houseinfo_boxes__xzksa :hover {\n  background: #2babd9;\n}\n\n.houseinfo_name__NcAoB {\n    margin-top: 10px;\n    text-align: center;\n    color: white;\n    font-size: 11px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 400;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.houseinfo_bio__sZ41u {\n  color: white;\n  font-size: 20px;\n  font-weight: 450;\n  line-height: 1.4;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.houseinfo_pics__56SLZ img {\n  margin-top: 20px;\n  width: 100px;\n  height: 100px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n  z-index: 1;\n}\n\n.houseinfo_pics__56SLZ:hover {\n  -webkit-filter: sepia(30%);\n          filter: sepia(30%);\n  transition: -webkit-filter 0.5s;\n  transition: filter 0.5s;\n  transition: filter 0.5s, -webkit-filter 0.5s;\n  z-index: 1;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseinfo.module.css"],"names":[],"mappings":"AAAA;EACE,kBAAkB;EAClB,mBAAmB;EACnB,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,qBAAqB;EACrB,mBAAmB;EACnB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;EACZ,wBAAwB;AAC1B;;AAEA;EACE,mBAAmB;AACrB;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;AAChJ;;AAEA;EACE,gBAAgB;EAChB,YAAY;EACZ,aAAa;EACb,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;EACvB,UAAU;AACZ;;AAEA;EACE,0BAAkB;UAAlB,kBAAkB;EAClB,+BAAuB;EAAvB,uBAAuB;EAAvB,4CAAuB;EACvB,UAAU;AACZ","file":"houseinfo.module.css","sourcesContent":[".boxes {\n  text-align: center;\n  background: #f0e3c7;\n  padding: 60px 0;\n}\n\n.box {\n  background: #243665;\n  text-align: center;\n  display: inline-block;\n  border-radius: 10px;\n  margin: 10px;\n  vertical-align: top;\n  height: 250px;\n  width: 250px;\n  border: 3px double white;\n}\n\n.boxes :hover {\n  background: #2babd9;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    color: white;\n    font-size: 11px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 400;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: white;\n  font-size: 20px;\n  font-weight: 450;\n  line-height: 1.4;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.pics img {\n  margin-top: 20px;\n  width: 100px;\n  height: 100px;\n  object-fit: cover;\n  object-position: center;\n  z-index: 1;\n}\n\n.pics:hover {\n  filter: sepia(30%);\n  transition: filter 0.5s;\n  z-index: 1;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"boxes": "houseinfo_boxes__xzksa",
+	"box": "houseinfo_box__2Hz34",
+	"name": "houseinfo_name__NcAoB",
+	"bio": "houseinfo_bio__sZ41u",
+	"pics": "houseinfo_pics__56SLZ"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css":
+/*!********************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/houseinstagram.module.css ***!
+  \********************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".houseinstagram_container__1dluG {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/houseinstagram.module.css"],"names":[],"mappings":"AAAA;EACE,aAAa;EACb,mBAAmB;EACnB,eAAe;EACf,6BAA6B;AAC/B","file":"houseinstagram.module.css","sourcesContent":[".container {\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  justify-content: space-around;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"container": "houseinstagram_container__1dluG"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/housenavbar.module.css ***!
+  \*****************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".housenavbar_header__2pPmV {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.housenavbar_item__24cr- {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.housenavbar_item__24cr-:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/housenavbar.module.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"housenavbar.module.css","sourcesContent":[".header {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
+// Exports
+exports.locals = {
+	"header": "housenavbar_header__2pPmV",
+	"item": "housenavbar_item__24cr-"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css":
+/*!****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/house/housevideo.module.css ***!
+  \****************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".housevideo_filler__3-07L {\n  background: #e3f5ff;\n  height: 60px;\n}\n\n.housevideo_all__3lNiz {\n  background: #e3f5ff;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/house/housevideo.module.css"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,YAAY;AACd;;AAEA;EACE,mBAAmB;AACrB","file":"housevideo.module.css","sourcesContent":[".filler {\n  background: #e3f5ff;\n  height: 60px;\n}\n\n.all {\n  background: #e3f5ff;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"filler": "housevideo_filler__3-07L",
+	"all": "housevideo_all__3lNiz"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles/layout.module.css ***!
+  \*******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".layout_header__1OJ41 {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_bottomheader__3-_Kh {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_item__fe16O {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.layout_item__fe16O:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/styles/layout.module.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,MAAM;EACN,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,yBAAyB;EACzB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"layout.module.css","sourcesContent":[".header {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
+// Exports
+exports.locals = {
+	"header": "layout_header__1OJ41",
+	"bottomheader": "layout_bottomheader__3-_Kh",
+	"item": "layout_item__fe16O"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/runtime/api.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], "{").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    for (var i = 0; i < this.length; i++) {
+      // eslint-disable-next-line prefer-destructuring
+      var id = this[i][0];
+
+      if (id != null) {
+        alreadyImportedModules[id] = true;
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = modules[_i]; // skip already imported module
+      // this implementation is not 100% perfect for weird media query combinations
+      // when a module is imported multiple times with different media queries.
+      // I hope this will never occur (Hey this way we have smaller bundles)
+
+      if (item[0] == null || !alreadyImportedModules[item[0]]) {
+        if (mediaQuery && !item[2]) {
+          item[2] = mediaQuery;
+        } else if (mediaQuery) {
+          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
+        }
+
+        list.push(item);
+      }
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
 
 /***/ }),
 
@@ -32796,7 +32796,7 @@ module.exports = warning;
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -32830,9 +32830,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./comments.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/comments/comments.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -33217,7 +33217,7 @@ var Comment = /*#__PURE__*/function (_React$Component3) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -33251,9 +33251,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./house.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/house.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -33425,7 +33425,7 @@ var HouseImage = /*#__PURE__*/function (_Component) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -33459,9 +33459,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseimage.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseimage.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -34092,7 +34092,7 @@ function HouseInfo() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -34126,9 +34126,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinfo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinfo.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -34244,7 +34244,7 @@ function HouseInstagram() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -34278,9 +34278,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./houseinstagram.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/houseinstagram.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -34552,7 +34552,7 @@ function HouseNavBar(_ref) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -34586,9 +34586,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housenavbar.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housenavbar.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -35109,7 +35109,7 @@ function HouseVideo() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css");
+var content = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -35143,9 +35143,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css",
+      /*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css");
+        var newContent = __webpack_require__(/*! !../../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./housevideo.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/house/housevideo.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -35447,7 +35447,7 @@ function Layout(_ref) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
+var content = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -35481,9 +35481,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css",
+      /*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
+        var newContent = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];

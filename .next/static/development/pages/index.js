@@ -42417,157 +42417,6 @@ function toVal(mix) {
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css":
-/*!***********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/index.module.css ***!
-  \***********************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, "\n.index_container__3XRMM {\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.index_section3__2lbPW {\n  background-color: #F9F1EC;\n}\n\n.index_signupicon__3KSI7{\n  margin-top: 60px;\n  height: 20%;\n  width: 20%;\n}\n\n.index_imgcontainer__2Uthn {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n\n.index_blockdtitle__3Irch {\n  font-size: 100px;\n  position: absolute;\n  top: 20%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  color: white;\n  text-shadow: 2px 2px grey;\n}\n\n.index_blockdimage__2iOto {\n  width: 100%;\n  height: auto;\n}\n\n.index_imageblock__2sdsg {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n.index_image2__UqzhU {\n  padding-top: 100px;\n  padding-bottom: 50px;\n  display: block;\n  margin: auto;\n  height: 760px;\n  width: 1150px;\n  z-index: -1;\n}\n\n.index_imagetext__1-710 {\n  font-size: 20px;\n  font-weight: 300;\n  position: absolute;\n  bottom: 8%;\n  left: 27%;\n  transform: translate(-50%, -50%);\n}\n\n\n.index_harvardicon__3hJk_ {\n  width: 15%;\n  height: auto;\n  margin-top: -30px;\n  margin-bottom: 50px;\n}\n\n.index_bottomheader__2BBOA {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.index_blueword__2xl59 {\n  color: #0270F3;\n}\n\n.index_main___Ajca {\n  padding: 5rem 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.index_title__27Lr- {\n  margin: 0;\n  line-height: 1.15;\n  font-size: 4rem;\n}\n\n.index_codeitsgonenow__250EB {\n  background: #fafafa;\n  border-radius: 5px;\n  padding: 0.75rem;\n  font-size: 1.1rem;\n  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,\n    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/index.module.css"],"names":[],"mappings":";AACA;EACE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,UAAU;AACZ;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;AACd;;;AAGA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,iCAAiC;EACjC,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,oBAAoB;EACpB,cAAc;EACd,YAAY;EACZ,aAAa;EACb,aAAa;EACb,WAAW;AACb;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,gCAAgC;AAClC;;;AAGA;EACE,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,SAAS;EACT,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB;sEACoE;AACtE","file":"index.module.css","sourcesContent":["\n.container {\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.section3 {\n  background-color: #F9F1EC;\n}\n\n.signupicon{\n  margin-top: 60px;\n  height: 20%;\n  width: 20%;\n}\n\n.imgcontainer {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 20%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  color: white;\n  text-shadow: 2px 2px grey;\n}\n\n.blockdimage {\n  width: 100%;\n  height: auto;\n}\n\n.imageblock {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n.image2 {\n  padding-top: 100px;\n  padding-bottom: 50px;\n  display: block;\n  margin: auto;\n  height: 760px;\n  width: 1150px;\n  z-index: -1;\n}\n\n.imagetext {\n  font-size: 20px;\n  font-weight: 300;\n  position: absolute;\n  bottom: 8%;\n  left: 27%;\n  transform: translate(-50%, -50%);\n}\n\n\n.harvardicon {\n  width: 15%;\n  height: auto;\n  margin-top: -30px;\n  margin-bottom: 50px;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.blueword {\n  color: #0270F3;\n}\n\n.main {\n  padding: 5rem 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  margin: 0;\n  line-height: 1.15;\n  font-size: 4rem;\n}\n\n.codeitsgonenow {\n  background: #fafafa;\n  border-radius: 5px;\n  padding: 0.75rem;\n  font-size: 1.1rem;\n  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,\n    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\n}\n"]}]);
-// Exports
-exports.locals = {
-	"container": "index_container__3XRMM",
-	"section3": "index_section3__2lbPW",
-	"signupicon": "index_signupicon__3KSI7",
-	"imgcontainer": "index_imgcontainer__2Uthn",
-	"blockdtitle": "index_blockdtitle__3Irch",
-	"blockdimage": "index_blockdimage__2iOto",
-	"imageblock": "index_imageblock__2sdsg",
-	"image2": "index_image2__UqzhU",
-	"imagetext": "index_imagetext__1-710",
-	"harvardicon": "index_harvardicon__3hJk_",
-	"bottomheader": "index_bottomheader__2BBOA",
-	"blueword": "index_blueword__2xl59",
-	"main": "index_main___Ajca",
-	"title": "index_title__27Lr-",
-	"codeitsgonenow": "index_codeitsgonenow__250EB"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css":
-/*!*************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles/layout.module.css ***!
-  \*************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
-// Module
-exports.push([module.i, ".layout_header__1OJ41 {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_bottomheader__3-_Kh {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_item__fe16O {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.layout_item__fe16O:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/styles/layout.module.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,MAAM;EACN,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,yBAAyB;EACzB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"layout.module.css","sourcesContent":[".header {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
-// Exports
-exports.locals = {
-	"header": "layout_header__1OJ41",
-	"bottomheader": "layout_bottomheader__3-_Kh",
-	"item": "layout_item__fe16O"
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/api.js":
-/*!*****************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/api.js ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-/*
-  MIT License http://www.opensource.org/licenses/mit-license.php
-  Author Tobias Koppers @sokra
-*/
-// css base code, injected by the css-loader
-// eslint-disable-next-line func-names
-module.exports = function (useSourceMap) {
-  var list = []; // return the list of modules as css string
-
-  list.toString = function toString() {
-    return this.map(function (item) {
-      var content = cssWithMappingToString(item, useSourceMap);
-
-      if (item[2]) {
-        return "@media ".concat(item[2], "{").concat(content, "}");
-      }
-
-      return content;
-    }).join('');
-  }; // import a list of modules into the list
-  // eslint-disable-next-line func-names
-
-
-  list.i = function (modules, mediaQuery) {
-    if (typeof modules === 'string') {
-      // eslint-disable-next-line no-param-reassign
-      modules = [[null, modules, '']];
-    }
-
-    var alreadyImportedModules = {};
-
-    for (var i = 0; i < this.length; i++) {
-      // eslint-disable-next-line prefer-destructuring
-      var id = this[i][0];
-
-      if (id != null) {
-        alreadyImportedModules[id] = true;
-      }
-    }
-
-    for (var _i = 0; _i < modules.length; _i++) {
-      var item = modules[_i]; // skip already imported module
-      // this implementation is not 100% perfect for weird media query combinations
-      // when a module is imported multiple times with different media queries.
-      // I hope this will never occur (Hey this way we have smaller bundles)
-
-      if (item[0] == null || !alreadyImportedModules[item[0]]) {
-        if (mediaQuery && !item[2]) {
-          item[2] = mediaQuery;
-        } else if (mediaQuery) {
-          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
-        }
-
-        list.push(item);
-      }
-    }
-  };
-
-  return list;
-};
-
-function cssWithMappingToString(item, useSourceMap) {
-  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
-
-  var cssMapping = item[3];
-
-  if (!cssMapping) {
-    return content;
-  }
-
-  if (useSourceMap && typeof btoa === 'function') {
-    var sourceMapping = toComment(cssMapping);
-    var sourceURLs = cssMapping.sources.map(function (source) {
-      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
-    });
-    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
-  }
-
-  return [content].join('\n');
-} // Adapted from convert-source-map (MIT)
-
-
-function toComment(sourceMap) {
-  // eslint-disable-next-line no-undef
-  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
-  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
-  return "/*# ".concat(data, " */");
-}
-
-/***/ }),
-
 /***/ "./node_modules/css-vendor/dist/css-vendor.esm.js":
 /*!********************************************************!*\
   !*** ./node_modules/css-vendor/dist/css-vendor.esm.js ***!
@@ -48801,6 +48650,157 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/next/dist/client/link.js")
 
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./pages/index.module.css ***!
+  \*****************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, "\n.index_container__3XRMM {\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.index_section3__2lbPW {\n  background-color: #F9F1EC;\n}\n\n.index_signupicon__3KSI7{\n  margin-top: 60px;\n  height: 20%;\n  width: 20%;\n}\n\n.index_imgcontainer__2Uthn {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n\n.index_blockdtitle__3Irch {\n  font-size: 100px;\n  position: absolute;\n  top: 20%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  color: white;\n  text-shadow: 2px 2px grey;\n}\n\n.index_blockdimage__2iOto {\n  width: 100%;\n  height: auto;\n}\n\n.index_imageblock__2sdsg {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n.index_image2__UqzhU {\n  padding-top: 100px;\n  padding-bottom: 50px;\n  display: block;\n  margin: auto;\n  height: 760px;\n  width: 1150px;\n  z-index: -1;\n}\n\n.index_imagetext__1-710 {\n  font-size: 20px;\n  font-weight: 300;\n  position: absolute;\n  bottom: 8%;\n  left: 27%;\n  transform: translate(-50%, -50%);\n}\n\n\n.index_harvardicon__3hJk_ {\n  width: 15%;\n  height: auto;\n  margin-top: -30px;\n  margin-bottom: 50px;\n}\n\n.index_bottomheader__2BBOA {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.index_blueword__2xl59 {\n  color: #0270F3;\n}\n\n.index_main___Ajca {\n  padding: 5rem 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.index_title__27Lr- {\n  margin: 0;\n  line-height: 1.15;\n  font-size: 4rem;\n}\n\n.index_codeitsgonenow__250EB {\n  background: #fafafa;\n  border-radius: 5px;\n  padding: 0.75rem;\n  font-size: 1.1rem;\n  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,\n    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\n}\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/pages/index.module.css"],"names":[],"mappings":";AACA;EACE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;AAEA;EACE,yBAAyB;AAC3B;;AAEA;EACE,gBAAgB;EAChB,WAAW;EACX,UAAU;AACZ;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;AACd;;;AAGA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,iCAAiC;EACjC,YAAY;EACZ,yBAAyB;AAC3B;;AAEA;EACE,WAAW;EACX,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,YAAY;AACd;;AAEA;EACE,kBAAkB;EAClB,oBAAoB;EACpB,cAAc;EACd,YAAY;EACZ,aAAa;EACb,aAAa;EACb,WAAW;AACb;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,kBAAkB;EAClB,UAAU;EACV,SAAS;EACT,gCAAgC;AAClC;;;AAGA;EACE,UAAU;EACV,YAAY;EACZ,iBAAiB;EACjB,mBAAmB;AACrB;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,cAAc;AAChB;;AAEA;EACE,eAAe;EACf,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;AACrB;;AAEA;EACE,SAAS;EACT,iBAAiB;EACjB,eAAe;AACjB;;AAEA;EACE,mBAAmB;EACnB,kBAAkB;EAClB,gBAAgB;EAChB,iBAAiB;EACjB;sEACoE;AACtE","file":"index.module.css","sourcesContent":["\n.container {\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.section3 {\n  background-color: #F9F1EC;\n}\n\n.signupicon{\n  margin-top: 60px;\n  height: 20%;\n  width: 20%;\n}\n\n.imgcontainer {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 20%;\n  left: 50%;\n  transform: translate(-50%, -100%);\n  color: white;\n  text-shadow: 2px 2px grey;\n}\n\n.blockdimage {\n  width: 100%;\n  height: auto;\n}\n\n.imageblock {\n  position: relative;\n  text-align: center;\n  color: white;\n}\n\n.image2 {\n  padding-top: 100px;\n  padding-bottom: 50px;\n  display: block;\n  margin: auto;\n  height: 760px;\n  width: 1150px;\n  z-index: -1;\n}\n\n.imagetext {\n  font-size: 20px;\n  font-weight: 300;\n  position: absolute;\n  bottom: 8%;\n  left: 27%;\n  transform: translate(-50%, -50%);\n}\n\n\n.harvardicon {\n  width: 15%;\n  height: auto;\n  margin-top: -30px;\n  margin-bottom: 50px;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.blueword {\n  color: #0270F3;\n}\n\n.main {\n  padding: 5rem 0;\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n}\n\n.title {\n  margin: 0;\n  line-height: 1.15;\n  font-size: 4rem;\n}\n\n.codeitsgonenow {\n  background: #fafafa;\n  border-radius: 5px;\n  padding: 0.75rem;\n  font-size: 1.1rem;\n  font-family: Menlo, Monaco, Lucida Console, Liberation Mono,\n    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;\n}\n"]}]);
+// Exports
+exports.locals = {
+	"container": "index_container__3XRMM",
+	"section3": "index_section3__2lbPW",
+	"signupicon": "index_signupicon__3KSI7",
+	"imgcontainer": "index_imgcontainer__2Uthn",
+	"blockdtitle": "index_blockdtitle__3Irch",
+	"blockdimage": "index_blockdimage__2iOto",
+	"imageblock": "index_imageblock__2sdsg",
+	"image2": "index_image2__UqzhU",
+	"imagetext": "index_imagetext__1-710",
+	"harvardicon": "index_harvardicon__3hJk_",
+	"bottomheader": "index_bottomheader__2BBOA",
+	"blueword": "index_blueword__2xl59",
+	"main": "index_main___Ajca",
+	"title": "index_title__27Lr-",
+	"codeitsgonenow": "index_codeitsgonenow__250EB"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css":
+/*!*******************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!./node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./styles/layout.module.css ***!
+  \*******************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../node_modules/next/node_modules/css-loader/dist/runtime/api.js */ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js")(true);
+// Module
+exports.push([module.i, ".layout_header__1OJ41 {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_bottomheader__3-_Kh {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.layout_item__fe16O {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.layout_item__fe16O:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/alexcheng/blockd/harvard-houses/styles/layout.module.css"],"names":[],"mappings":"AAAA;EACE,eAAe;EACf,MAAM;EACN,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,yBAAyB;EACzB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,UAAU;EACV,eAAe;;EAEf,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"layout.module.css","sourcesContent":[".header {\n  position: fixed;\n  top: 0;\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: #323232;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bottomheader {\n  z-index: 1;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 25px;\n  width:100%;\n  font-size: 11px;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 40px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
+// Exports
+exports.locals = {
+	"header": "layout_header__1OJ41",
+	"bottomheader": "layout_bottomheader__3-_Kh",
+	"item": "layout_item__fe16O"
+};
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/css-loader/dist/runtime/api.js":
+/*!***********************************************************************!*\
+  !*** ./node_modules/next/node_modules/css-loader/dist/runtime/api.js ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/*
+  MIT License http://www.opensource.org/licenses/mit-license.php
+  Author Tobias Koppers @sokra
+*/
+// css base code, injected by the css-loader
+// eslint-disable-next-line func-names
+module.exports = function (useSourceMap) {
+  var list = []; // return the list of modules as css string
+
+  list.toString = function toString() {
+    return this.map(function (item) {
+      var content = cssWithMappingToString(item, useSourceMap);
+
+      if (item[2]) {
+        return "@media ".concat(item[2], "{").concat(content, "}");
+      }
+
+      return content;
+    }).join('');
+  }; // import a list of modules into the list
+  // eslint-disable-next-line func-names
+
+
+  list.i = function (modules, mediaQuery) {
+    if (typeof modules === 'string') {
+      // eslint-disable-next-line no-param-reassign
+      modules = [[null, modules, '']];
+    }
+
+    var alreadyImportedModules = {};
+
+    for (var i = 0; i < this.length; i++) {
+      // eslint-disable-next-line prefer-destructuring
+      var id = this[i][0];
+
+      if (id != null) {
+        alreadyImportedModules[id] = true;
+      }
+    }
+
+    for (var _i = 0; _i < modules.length; _i++) {
+      var item = modules[_i]; // skip already imported module
+      // this implementation is not 100% perfect for weird media query combinations
+      // when a module is imported multiple times with different media queries.
+      // I hope this will never occur (Hey this way we have smaller bundles)
+
+      if (item[0] == null || !alreadyImportedModules[item[0]]) {
+        if (mediaQuery && !item[2]) {
+          item[2] = mediaQuery;
+        } else if (mediaQuery) {
+          item[2] = "(".concat(item[2], ") and (").concat(mediaQuery, ")");
+        }
+
+        list.push(item);
+      }
+    }
+  };
+
+  return list;
+};
+
+function cssWithMappingToString(item, useSourceMap) {
+  var content = item[1] || ''; // eslint-disable-next-line prefer-destructuring
+
+  var cssMapping = item[3];
+
+  if (!cssMapping) {
+    return content;
+  }
+
+  if (useSourceMap && typeof btoa === 'function') {
+    var sourceMapping = toComment(cssMapping);
+    var sourceURLs = cssMapping.sources.map(function (source) {
+      return "/*# sourceURL=".concat(cssMapping.sourceRoot).concat(source, " */");
+    });
+    return [content].concat(sourceURLs).concat([sourceMapping]).join('\n');
+  }
+
+  return [content].join('\n');
+} // Adapted from convert-source-map (MIT)
+
+
+function toComment(sourceMap) {
+  // eslint-disable-next-line no-undef
+  var base64 = btoa(unescape(encodeURIComponent(JSON.stringify(sourceMap))));
+  var data = "sourceMappingURL=data:application/json;charset=utf-8;base64,".concat(base64);
+  return "/*# ".concat(data, " */");
+}
 
 /***/ }),
 
@@ -55985,7 +55985,7 @@ function Home() {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css");
+var content = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -56019,9 +56019,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css",
+      /*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css");
+        var newContent = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./index.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./pages/index.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
@@ -56174,7 +56174,7 @@ function Layout(_ref) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-var content = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
+var content = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
 
 if (typeof content === 'string') {
   content = [[module.i, content, '']];
@@ -56208,9 +56208,9 @@ if (content.locals) {
 if (true) {
   if (!content.locals) {
     module.hot.accept(
-      /*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css",
+      /*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css",
       function () {
-        var newContent = __webpack_require__(/*! !../node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
+        var newContent = __webpack_require__(/*! !../node_modules/next/node_modules/css-loader/dist/cjs.js??ref--5-oneOf-2-1!../node_modules/next/dist/compiled/postcss-loader??__nextjs_postcss!./layout.module.css */ "./node_modules/next/node_modules/css-loader/dist/cjs.js?!./node_modules/next/dist/compiled/postcss-loader/index.js?!./styles/layout.module.css");
 
         if (typeof newContent === 'string') {
           newContent = [[module.i, newContent, '']];
