@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1852,10 +1852,10 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
   render() {
     const comments = this.getComments();
     let commentNodes;
-    let buttonText = 'Show Comments';
+    let buttonText = 'Show Reviews';
 
     if (this.state.showComments) {
-      buttonText = 'Hide Comments';
+      buttonText = 'Hide Reviews';
       commentNodes = __jsx("div", {
         className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentlist,
         __self: this,
@@ -1899,14 +1899,7 @@ class CommentBox extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component 
         lineNumber: 32,
         columnNumber: 9
       }
-    }, buttonText), __jsx("h3", {
-      __self: this,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 35,
-        columnNumber: 9
-      }
-    }, "Comments"), __jsx("h4", {
+    }, buttonText), __jsx("h4", {
       className: _comments_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.commentcount,
       __self: this,
       __source: {
@@ -2141,69 +2134,29 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function HouseInfo() {
-  return __jsx("div", {
+  const houses = [{
+    id: 1,
+    nameimg: 'old.png',
+    name: 'Dunster',
+    namedafter: 'Henry Dunster',
+    namedafterimg: 'president.png',
+    facultydeans: 'Cheryl Chen'
+  }];
+  const houseList = houses.map(house => __jsx("div", {
     className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.boxes,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 19,
       columnNumber: 9
     }
   }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/old.png",
-    zIndex: -10,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 21
-    }
-  }, "Named After"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 21
-    }
-  }, "Henry Dunster"))), __jsx("div", {
     className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20,
-      columnNumber: 9
+      columnNumber: 13
     }
   }, __jsx("div", {
     className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
@@ -2211,518 +2164,234 @@ function HouseInfo() {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21,
-      columnNumber: 13
+      columnNumber: 17
     }
   }, __jsx("img", {
-    src: "/president.png",
+    src: house.nameimg,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21,
+      columnNumber: 48
+    }
+  })), __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 17
     }
-  })), __jsx("div", {
+  }, __jsx("p", {
+    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 22
+    }
+  }, "Name"), __jsx("p", {
+    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22,
+      columnNumber: 59
+    }
+  }, house.name))), __jsx("div", {
+    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24,
       columnNumber: 13
     }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
+  }, __jsx("div", {
+    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 25,
-      columnNumber: 21
+      columnNumber: 17
     }
-  }, "Faculty Deans"), __jsx("a", {
+  }, __jsx("img", {
+    src: house.namedafterimg,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25,
+      columnNumber: 48
+    }
+  })), __jsx("div", {
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 17
+    }
+  }, __jsx("p", {
+    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
+    __self: this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26,
+      columnNumber: 22
+    }
+  }, "Named After"), __jsx("p", {
     className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
     __self: this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 26,
-      columnNumber: 21
+      columnNumber: 66
     }
-  }, "Sean Kelly", __jsx("br", {
+  }, house.namedafter)))));
+  return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 59
-    }
-  }), "Cheryl Chen"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
+      lineNumber: 33,
       columnNumber: 9
     }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/woman.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
-    }
-  }, "Resident Deans"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }, "Michael Uy"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/student.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 21
-    }
-  }, "Residents' Nickname"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 21
-    }
-  }, "Meece"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/team.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 21
-    }
-  }, "Famous Alumni"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 21
-    }
-  }, "Al Gore"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/architect.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 44
-    }
-  })), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 13
-    }
-  }, "Established"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 13
-    }
-  }, "1930")), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/population.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 21
-    }
-  }, "Population"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 21
-    }
-  }, "400"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/money.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 21
-    }
-  }, "HOCO Budget"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 21
-    }
-  }, "$26,000"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/birthday.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 21
-    }
-  }, "Must-see Event"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 21
-    }
-  }, "Goat Roast", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 59
-    }
-  }), "Fall Hoedown"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/infrastructure.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 21
-    }
-  }, "Neighborhood"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 21
-    }
-  }, "River East"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/pooja.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114,
-      columnNumber: 21
-    }
-  }, "Mascot"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115,
-      columnNumber: 21
-    }
-  }, "Moose"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 119,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/property.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124,
-      columnNumber: 21
-    }
-  }, "Chill At"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 21
-    }
-  }, "Dunster Grille"))));
-}
+  }, houseList);
+} //   renderNamedAfter(info) {
+//     return (
+//         <div className={styles.boxes}>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src={info.named.imgsrc}></img>
+//                 </div>
+//             <div>
+//                 <p className = {styles.name}>{info.named.title}</p>
+//                 <p className = {styles.bio}>{info.named.bio}</p>
+//              </div>
+//          </div>
+//      </div>
+//     );
+//   }
+//   return (
+//     <div className={styles.boxes}>
+//         <div className = {styles.box}>
+//             <div className = {styles.pics}>
+//                 <img src="/old.png"></img>
+//             </div>
+//             <div>
+//                     <a className = {styles.name}>Named After</a>
+//                     <a className = {styles.bio}>Henry Dunster</a>
+//             </div>
+//         </div>
+//     </div>
+//     render () {
+//         return (
+//         <div className={styles.boxes}>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/old.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Named After</a>
+//                         <a className = {styles.bio}>{this.houses.map(this.renderInfo)}</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/president.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Faculty Deans</a>
+//                         {/* <a className = {styles.bio}>Sean Kelly<br/>Cheryl Chen</a> */}
+//                         <a className = {styles.bio}>{this.houses.map(this.renderFaculty)}</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/woman.png"></img>
+//                 </div>
+//                 <div>
+//                         <p className = {styles.name}>Resident Deans</p>
+//                         <p className = {styles.bio}>Michael Uy</p>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/student.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Residents' Nickname</a>
+//                         <a className = {styles.bio}>Meece</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/team.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Famous Alumni</a>
+//                         <a className = {styles.bio}>Al Gore</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}><img src="/architect.png"></img></div>
+//                 <a className = {styles.name}>Established</a>
+//                 <a className = {styles.bio}>1930</a>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/population.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Population</a>
+//                         <a className = {styles.bio}>400</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/money.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>HOCO Budget</a>
+//                         <a className = {styles.bio}>$26,000</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/birthday.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Must-see Event</a>
+//                         <a className = {styles.bio}>Goat Roast<br/>Fall Hoedown</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/infrastructure.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Neighborhood</a>
+//                         <a className = {styles.bio}>River East</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/pooja.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Mascot</a>
+//                         <a className = {styles.bio}>Moose</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/property.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Chill At</a>
+//                         <a className = {styles.bio}>Dunster Grille</a>
+//                 </div>
+//             </div>
+//         </div>
+//   );
+//         }
+//}
 
 /***/ }),
 
@@ -2883,228 +2552,278 @@ var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/housenavb
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
- //
-// import {
-//   BrowserRouter as Router,
-//   Route,
-// } from 'react-router-dom';
-//
-// import * as ROUTES from '../constants/routes'
 
-function HouseNavBar({
-  children,
-  title = 'This is the default title'
+
+
+class HouseNavBar extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component({
+  children
 }) {
-  return __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.header,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 34
-    }
-  }, "Adams")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/signup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 40
-    }
-  }, "Cabot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/search",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 40
-    }
-  }, "Currier")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/house",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 39
-    }
-  }, "Dunster")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 37
-    }
-  }, "Eliot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/profile",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 41
-    }
-  }, "Kirkland")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 34
-    }
-  }, "Leverett")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/signup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 40
-    }
-  }, "Lowell")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/search",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 40
-    }
-  }, "Mather")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/house",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 39
-    }
-  }, "Pforzheimer")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 37
-    }
-  }, "Quincy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/profile",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 41
-    }
-  }, "Winthrop"))), children);
-}
+  constructor(props) {
+    super(props);
+
+    _defineProperty(this, "clickAdams", () => {
+      this.setState({
+        adams: true,
+        cabot: false,
+        currier: false,
+        dunster: false
+      });
+    });
+
+    _defineProperty(this, "clickCabot", () => {
+      this.setState({
+        adams: false,
+        cabot: true,
+        currier: false,
+        dunster: false
+      });
+    });
+
+    this.state = {
+      adams: false,
+      cabot: false,
+      currier: false,
+      dunster: false
+    };
+  }
+
+  render() {
+    return __jsx("div", {
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 38,
+        columnNumber: 5
+      }
+    }, __jsx("div", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.header,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 39,
+        columnNumber: 9
+      }
+    }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/adams",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 40,
+        columnNumber: 33
+      }
+    }, "Adams")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/cabot",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41,
+        columnNumber: 33
+      }
+    }, "Cabot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/currier",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42,
+        columnNumber: 35
+      }
+    }, "Currier")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/house",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 43,
+        columnNumber: 33
+      }
+    }, "Dunster")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/eliot",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 44,
+        columnNumber: 33
+      }
+    }, "Eliot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/kirkland",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 45,
+        columnNumber: 36
+      }
+    }, "Kirkland")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/leverett",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46,
+        columnNumber: 36
+      }
+    }, "Leverett")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/lowell",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47,
+        columnNumber: 34
+      }
+    }, "Lowell")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/mather",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 48,
+        columnNumber: 34
+      }
+    }, "Mather")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/pforzheimer",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 49,
+        columnNumber: 39
+      }
+    }, "Pforzheimer")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/quincy",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50,
+        columnNumber: 34
+      }
+    }, "Quincy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      href: "/winthrop",
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 13
+      }
+    }, __jsx("a", {
+      className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51,
+        columnNumber: 36
+      }
+    }, "Winthrop"))), children);
+  }
+
+} // import Link from 'next/link'
+// import Head from 'next/head'
+// import styles from './housenavbar.module.css';
+// export default function HouseNavBar({children}) {
+//   return (
+//     <div>
+//         <div className = {styles.header}>
+//           <Link href="/"><a className = {styles.item}>Adams</a></Link>
+//           <Link href="/signup"><a className = {styles.item}>Cabot</a></Link>
+//           <Link href="/search"><a className = {styles.item}>Currier</a></Link>
+//           <Link href="/house"><a className = {styles.item}>Dunster</a></Link>
+//           <Link href="/faq"><a className = {styles.item}>Eliot</a></Link>
+//           <Link href="/profile"><a className = {styles.item}>Kirkland</a></Link>
+//           <Link href="/"><a className = {styles.item}>Leverett</a></Link>
+//           <Link href="/signup"><a className = {styles.item}>Lowell</a></Link>
+//           <Link href="/search"><a className = {styles.item}>Mather</a></Link>
+//           <Link href="/house"><a className = {styles.item}>Pforzheimer</a></Link>
+//           <Link href="/faq"><a className = {styles.item}>Quincy</a></Link>
+//           <Link href="/profile"><a className = {styles.item}>Winthrop</a></Link>
+//         </div>
+//       {children}
+//     </div>
+//   )
+// }
 
 /***/ }),
 
@@ -3481,135 +3200,49 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function HouseVideo() {
-  return __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.all,
+  const videos = ['https://www.youtube.com/embed/4itZalWyH70', 'https://www.youtube.com/embed/nq7y1GkaV30', 'https://www.youtube.com/embed/JwKQXzG-dLM', 'https://www.youtube.com/embed/HMZRvabwjZ8', 'https://www.youtube.com/embed/URGEP5YFoIY', 'https://www.youtube.com/embed/zhUTE7sBHRc', 'https://www.youtube.com/embed/QqffgR8XIuE', 'https://www.youtube.com/embed/l0JEMXfJ1rM'];
+  const videoList = videos.map(video => __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 1
+      lineNumber: 20,
+      columnNumber: 7
     }
   }, __jsx("div", {
     className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 5
+      lineNumber: 21,
+      columnNumber: 9
     }
   }), __jsx("center", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
+      lineNumber: 22,
+      columnNumber: 9
     }
   }, __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
     width: "1280",
     height: "680" //790-40 from nav bar
     ,
-    src: "https://www.youtube.com/embed/4itZalWyH70",
+    src: video,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
+      lineNumber: 23,
+      columnNumber: 11
     }
-  })), __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
+  }))));
+  return __jsx("div", {
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 5
+      lineNumber: 33,
+      columnNumber: 7
     }
-  }), __jsx("center", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 5
-    }
-  }, __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1280",
-    height: "680" //790-40 from nav bar
-    ,
-    src: "https://www.youtube.com/embed/nq7y1GkaV30",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/JwKQXzG-dLM",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/HMZRvabwjZ8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/URGEP5YFoIY",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/zhUTE7sBHRc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/QqffgR8XIuE",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/l0JEMXfJ1rM",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 5
-    }
-  }));
+  }, videoList);
 }
 
 /***/ }),
@@ -3671,6 +3304,31 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
   constructor(props) {
     super(props);
+    this.houses = [{
+      name: "Mather",
+      url: "/dunster.jpg"
+    }];
+    this.renderImage = this.renderImage.bind(this);
+  }
+
+  renderImage(house) {
+    return __jsx("div", {
+      className: _house_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.blockdimage,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 7
+      }
+    }, __jsx("img", {
+      src: house.url,
+      __self: this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 9
+      }
+    }));
   }
 
   render() {
@@ -3678,21 +3336,21 @@ class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20,
+        lineNumber: 32,
         columnNumber: 9
       }
     }, __jsx(_housenavbar_js__WEBPACK_IMPORTED_MODULE_7__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21,
+        lineNumber: 33,
         columnNumber: 11
       }
     }), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_9___default.a, {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22,
+        lineNumber: 34,
         columnNumber: 13
       }
     }, __jsx("div", {
@@ -3701,7 +3359,7 @@ class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23,
+        lineNumber: 35,
         columnNumber: 19
       }
     }, __jsx("div", {
@@ -3709,7 +3367,7 @@ class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24,
+        lineNumber: 36,
         columnNumber: 21
       }
     }, __jsx("h1", {
@@ -3717,7 +3375,7 @@ class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25,
+        lineNumber: 37,
         columnNumber: 25
       }
     }, "Dunster"), __jsx("a", {
@@ -3726,23 +3384,22 @@ class House extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
+        lineNumber: 38,
         columnNumber: 25
       }
-    }, __jsx("img", {
+    }, __jsx("div", {
       className: _house_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.blockdimage,
-      src: "/dunster.jpg",
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 80
+        lineNumber: 39,
+        columnNumber: 27
       }
-    }))), __jsx(_housetab_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    }, this.houses.map(this.renderImage)))), __jsx(_housetab_js__WEBPACK_IMPORTED_MODULE_8__["default"], {
       __self: this,
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28,
+        lineNumber: 44,
         columnNumber: 25
       }
     }))));
@@ -3896,7 +3553,7 @@ module.exports = {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!************************************!*\
   !*** multi ./pages/house/index.js ***!
   \************************************/

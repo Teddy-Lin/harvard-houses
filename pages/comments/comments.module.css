@@ -8,19 +8,20 @@
   width: 90vw;
   color: black;
   background-color: #e4f2f7;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 25px 20px;
   margin: 30px auto;
 }
 .commentform {
   background-color: #fff;
-  border-radius: 0.25rem;
-  margin-bottom: 2rem;
-  padding: 1rem;
+  border-radius: 15px;
+  margin-bottom: 32px;
+  padding: 16px;
 }
 
 .comment {
-  border-top: 0.125rem solid $dark-grey;
+  border-top: 2px solid $dark-grey;
+  border-radius: 15px;
 }
 
 .commentheader {
@@ -29,23 +30,15 @@
 }
 
 .commentbody {
-  font-weight: 200;
+  font-size: 14px;
+  font-weight: 350;
   background-color: #fffcf7;
   border: 1px grey solid;
+  border-radius: 15px;
   padding: 15px;
 }
 .commentfooter {
 }
-
-
-
-
-
-
-
-
-
-
 
 
 .button {
@@ -69,9 +62,11 @@
   color: $dark-grey;
 }
 .commentreveal {
-  float: right;
+  width: 100%;
+  height: 100%;
+  align-items: center;
   background-color: $nc-blue;
-  color: #fff;
+  color: black;
 }
 
 .commentfooterdelete {

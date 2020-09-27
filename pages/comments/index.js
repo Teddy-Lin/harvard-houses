@@ -18,10 +18,10 @@ export default class CommentBox extends React.Component {
   render () {
     const comments = this.getComments();
     let commentNodes;
-    let buttonText = 'Show Comments';
+    let buttonText = 'Show Reviews';
 
     if (this.state.showComments) {
-      buttonText = 'Hide Comments';
+      buttonText = 'Hide Reviews';
       commentNodes = <div className={styles.commentlist}>{comments}</div>;
     }
 
@@ -32,7 +32,7 @@ export default class CommentBox extends React.Component {
         <button className={styles.commentreveal} onClick={this.handleClick.bind(this)}>
           {buttonText}
         </button>
-        <h3>Comments</h3>
+
         <h4 className={styles.commentcount}>
           {this.getCommentsTitle(comments.length)}
         </h4>

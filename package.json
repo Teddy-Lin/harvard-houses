@@ -34,6 +34,8 @@
     "react-vis": "^1.11.7",
     "recompose": "^0.30.0",
     "sass": "^1.26.10",
-    "tailwindcss": "^1.6.1"
+    "tailwindcss": "^1.6.1",
+    "zingchart": "^2.9.1",
+    "zingchart-react": "^3.0.0"
   }
 }

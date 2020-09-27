@@ -10782,7 +10782,7 @@ function toVal(mix) {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.comments_commentbox__cyiis {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.comments_commentform__zA3xH {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comments_comment__4ex0s {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.comments_commentheader__2tv7f {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.comments_commentbody__31RQl {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.comments_commentfooter__3BGAc {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.comments_commentformfields__2zB0n {\n  margin-bottom: 0.25rem;\n}\n.comments_commentformactions__2m81L {\n\n}\n.comments_commentcount__2xJW4 {\n  color: $dark-grey;\n}\n.comments_commentreveal__NmTN6 {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.comments_commentfooterdelete__2VX2J {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,8IAA8I;AAChJ;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,sBAAsB;EACtB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,qCAAqC;AACvC;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,gBAAgB;EAChB,yBAAyB;EACzB,sBAAsB;EACtB,aAAa;AACf;AACA;AACA;;;;;;;;;;;;;AAaA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;;AAGA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,YAAY;EACZ,0BAA0B;EAC1B,WAAW;AACb;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.commentbox {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 20px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.commentform {\n  background-color: #fff;\n  border-radius: 0.25rem;\n  margin-bottom: 2rem;\n  padding: 1rem;\n}\n\n.comment {\n  border-top: 0.125rem solid $dark-grey;\n}\n\n.commentheader {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.commentbody {\n  font-weight: 200;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  padding: 15px;\n}\n.commentfooter {\n}\n\n\n\n\n\n\n\n\n\n\n\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.commentformfields {\n  margin-bottom: 0.25rem;\n}\n.commentformactions {\n\n}\n.commentcount {\n  color: $dark-grey;\n}\n.commentreveal {\n  float: right;\n  background-color: $nc-blue;\n  color: #fff;\n}\n\n.commentfooterdelete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
+exports.push([module.i, "\n\n.comments_body__19GsD {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.comments_commentbox__cyiis {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 15px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.comments_commentform__zA3xH {\n  background-color: #fff;\n  border-radius: 15px;\n  margin-bottom: 32px;\n  padding: 16px;\n}\n\n.comments_comment__4ex0s {\n  border-top: 2px solid $dark-grey;\n  border-radius: 15px;\n}\n\n.comments_commentheader__2tv7f {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.comments_commentbody__31RQl {\n  font-size: 14px;\n  font-weight: 350;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  border-radius: 15px;\n  padding: 15px;\n}\n.comments_commentfooter__3BGAc {\n}\n\n\n.comments_button__1T1sz {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.comments_commentformfields__2zB0n {\n  margin-bottom: 0.25rem;\n}\n.comments_commentformactions__2m81L {\n\n}\n.comments_commentcount__2xJW4 {\n  color: $dark-grey;\n}\n.comments_commentreveal__NmTN6 {\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  background-color: $nc-blue;\n  color: black;\n}\n\n.comments_commentfooterdelete__2VX2J {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/comments/comments.module.css"],"names":[],"mappings":";;AAEA;EACE,8IAA8I;AAChJ;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,yBAAyB;EACzB,mBAAmB;EACnB,kBAAkB;EAClB,iBAAiB;AACnB;AACA;EACE,sBAAsB;EACtB,mBAAmB;EACnB,mBAAmB;EACnB,aAAa;AACf;;AAEA;EACE,gCAAgC;EAChC,mBAAmB;AACrB;;AAEA;EACE,eAAe;EACf,gBAAgB;AAClB;;AAEA;EACE,eAAe;EACf,gBAAgB;EAChB,yBAAyB;EACzB,sBAAsB;EACtB,mBAAmB;EACnB,aAAa;AACf;AACA;AACA;;;AAGA;EACE,YAAY;EACZ,sBAAsB;EACtB,kBAAkB;EAClB,iBAAiB;EACjB,eAAe;EACf,qBAAqB;EACrB,qBAAqB;AACvB;;;AAGA;EACE,sBAAsB;AACxB;AACA;;AAEA;AACA;EACE,iBAAiB;AACnB;AACA;EACE,WAAW;EACX,YAAY;EACZ,mBAAmB;EACnB,0BAA0B;EAC1B,YAAY;AACd;;AAEA;EACE,iBAAiB;EACjB,iBAAiB;EACjB,qBAAqB;AACvB","file":"comments.module.css","sourcesContent":["\n\n.body {\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.commentbox {\n  width: 90vw;\n  color: black;\n  background-color: #e4f2f7;\n  border-radius: 15px;\n  padding: 25px 20px;\n  margin: 30px auto;\n}\n.commentform {\n  background-color: #fff;\n  border-radius: 15px;\n  margin-bottom: 32px;\n  padding: 16px;\n}\n\n.comment {\n  border-top: 2px solid $dark-grey;\n  border-radius: 15px;\n}\n\n.commentheader {\n  font-size: 23px;\n  font-weight: 300;\n}\n\n.commentbody {\n  font-size: 14px;\n  font-weight: 350;\n  background-color: #fffcf7;\n  border: 1px grey solid;\n  border-radius: 15px;\n  padding: 15px;\n}\n.commentfooter {\n}\n\n\n.button {\n  border: none;\n  border-radius: 0.25rem;\n  font-size: 0.75rem;\n  font-weight: bold;\n  padding: 0.75em;\n  display: inline-block;\n  text-decoration: none;\n}\n\n\n.commentformfields {\n  margin-bottom: 0.25rem;\n}\n.commentformactions {\n\n}\n.commentcount {\n  color: $dark-grey;\n}\n.commentreveal {\n  width: 100%;\n  height: 100%;\n  align-items: center;\n  background-color: $nc-blue;\n  color: black;\n}\n\n.commentfooterdelete {\n  padding: 0.2rem 0;\n  color: $dark-grey;\n  text-decoration: none;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"body": "comments_body__19GsD",
@@ -10811,7 +10811,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".house_background__3e8Ip {\n  background-color: #EBEBEB;\n\n}\n\n.house_video__1q9k4 {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.house_container__2exjc {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.house_blockdimage__wWtg2 {\n  height: 100vh;\n  width: 100vw;\n}\n\n.house_blockdtitle__GROW_ {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.house_boxes__1AAHA {\n  text-align: center;\n}\n\n.house_box__1z7CI {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.house_name__19JPA {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.house_bio__2G5De {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.house_pics__2ri3w {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.house_pics__2ri3w:hover {\n  -webkit-filter: drop-shadow(8px 8px 10px gray);\n          filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: -webkit-filter 2s;\n  transition: filter 2s;\n  transition: filter 2s, -webkit-filter 2s;\n}\n\n.house_pics__2ri3w img {\n  width: 150%;\n  height: 150%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/house/house.module.css"],"names":[],"mappings":"AAAA;EACE,yBAAyB;;AAE3B;;AAEA;EACE;;;;qCAImC;EACnC;;;;;gBAKc;EACd,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;;EAEE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;;AAGA;EACE,aAAa;EACb,YAAY;AACd;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;EACrB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;AACd;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,qBAAqB;IACrB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;EAC9I;6BAC2B;AAC7B;;;AAGA;EACE,YAAY;EACZ,gBAAgB;EAChB,wBAAwB;EACxB,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,8CAAsC;UAAtC,sCAAsC;EACtC,qBAAqB;EACrB,sBAAsB;EACtB,6BAAqB;EAArB,qBAAqB;EAArB,wCAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;AACzB","file":"house.module.css","sourcesContent":[".background {\n  background-color: #EBEBEB;\n\n}\n\n.video {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.container {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.blockdimage {\n  height: 100vh;\n  width: 100vw;\n}\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.boxes {\n  text-align: center;\n}\n\n.box {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.pics {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.pics:hover {\n  filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: filter 2s;\n}\n\n.pics img {\n  width: 150%;\n  height: 150%;\n  object-fit: cover;\n  object-position: center;\n}\n"]}]);
+exports.push([module.i, ".house_background__3e8Ip {\n  background-color: #EBEBEB;\n\n}\n\n.house_video__1q9k4 {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.house_container__2exjc {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.house_blockdimage__wWtg2 {\n  height: 100vh;\n  width: auto;\n}\n\n.house_blockdtitle__GROW_ {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.house_boxes__1AAHA {\n  text-align: center;\n}\n\n.house_box__1z7CI {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.house_name__19JPA {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.house_bio__2G5De {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.house_pics__2ri3w {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.house_pics__2ri3w:hover {\n  -webkit-filter: drop-shadow(8px 8px 10px gray);\n          filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: -webkit-filter 2s;\n  transition: filter 2s;\n  transition: filter 2s, -webkit-filter 2s;\n}\n\n.house_pics__2ri3w img {\n  width: 150%;\n  height: 150%;\n  -o-object-fit: cover;\n     object-fit: cover;\n  -o-object-position: center;\n     object-position: center;\n}\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/house/house.module.css"],"names":[],"mappings":"AAAA;EACE,yBAAyB;;AAE3B;;AAEA;EACE;;;;qCAImC;EACnC;;;;;gBAKc;EACd,mBAAmB;EACnB,iBAAiB;EACjB,kBAAkB;AACpB;;AAEA;;EAEE,uBAAuB;EACvB,aAAa;EACb,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,8IAA8I;AAChJ;;;AAGA;EACE,aAAa;EACb,WAAW;AACb;;AAEA;EACE,gBAAgB;EAChB,kBAAkB;EAClB,SAAS;EACT,YAAY;EACZ,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;AACpB;;AAEA;EACE,iBAAiB;EACjB,kBAAkB;EAClB,kBAAkB;EAClB,qBAAqB;EACrB,iBAAiB;EACjB,YAAY;EACZ,mBAAmB;EACnB,aAAa;EACb,YAAY;AACd;;AAEA;IACI,gBAAgB;IAChB,kBAAkB;IAClB,qBAAqB;IACrB,YAAY;IACZ,eAAe;IACf,cAAc;IACd,eAAe;IACf,gBAAgB;IAChB,8IAA8I;AAClJ;;AAEA;EACE,YAAY;EACZ,eAAe;EACf,gBAAgB;EAChB,gBAAgB;EAChB,8IAA8I;EAC9I;6BAC2B;AAC7B;;;AAGA;EACE,YAAY;EACZ,gBAAgB;EAChB,wBAAwB;EACxB,YAAY;EACZ,WAAW;EACX,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,8CAAsC;UAAtC,sCAAsC;EACtC,qBAAqB;EACrB,sBAAsB;EACtB,6BAAqB;EAArB,qBAAqB;EAArB,wCAAqB;AACvB;;AAEA;EACE,WAAW;EACX,YAAY;EACZ,oBAAiB;KAAjB,iBAAiB;EACjB,0BAAuB;KAAvB,uBAAuB;AACzB","file":"house.module.css","sourcesContent":[".background {\n  background-color: #EBEBEB;\n\n}\n\n.video {\n  /* position: absolute;\n  margin: auto;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); */\n  /* align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n  margin: 10px;\n  height: 50px;\n  width: 50px; */\n  align-items: center;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.container {\n\n  /* min-height: 100vh; */\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n\n.blockdimage {\n  height: 100vh;\n  width: auto;\n}\n\n.blockdtitle {\n  font-size: 100px;\n  position: absolute;\n  top: 18px;\n  color: white;\n  align-items: center;\n}\n\n.boxes {\n  text-align: center;\n}\n\n.box {\n  background: white;\n  text-align: center;\n  padding: 2rem 2rem;\n  display: inline-block;\n  box-shadow: black;\n  margin: 15px;\n  vertical-align: top;\n  height: 240px;\n  width: 240px;\n}\n\n.name {\n    margin-top: 10px;\n    text-align: center;\n    text-decoration: none;\n    color: black;\n    font-size: 15px;\n    display: block;\n    padding: .4em 0;\n    font-weight: 300;\n    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.bio {\n  color: black;\n  font-size: 20px;\n  font-weight: 400;\n  line-height: 1.6;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n  /* text-align: justify;\n  text-justify: inter-word; */\n}\n\n\n.pics {\n  opacity: 0.9;\n  overflow: hidden;\n  /* border-radius: 50%; */\n  margin: auto;\n  width: 60px;\n  height: 60px;\n  /* margin: .5em; */\n}\n\n.pics:hover {\n  filter: drop-shadow(8px 8px 10px gray);\n  display: inline-block;\n  transition: opacity 2s;\n  transition: filter 2s;\n}\n\n.pics img {\n  width: 150%;\n  height: 150%;\n  object-fit: cover;\n  object-position: center;\n}\n"]}]);
 // Exports
 exports.locals = {
 	"background": "house_background__3e8Ip",
@@ -10875,7 +10875,7 @@ exports.locals = {
 
 exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js")(true);
 // Module
-exports.push([module.i, ".housenavbar_header__2pPmV {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.housenavbar_item__24cr- {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.housenavbar_item__24cr-:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/house/housenavbar.module.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"housenavbar.module.css","sourcesContent":[".header {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.item:hover {\n  color: #959595;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
+exports.push([module.i, ".housenavbar_header__2pPmV {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.housenavbar_item__24cr- {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.housenavbar_item__24cr-:hover {\n  color: #ffe736;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n", "",{"version":3,"sources":["/Users/teddylin/Desktop/harvard-houses/pages/house/housenavbar.module.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,kBAAkB;EAClB,SAAS;EACT,UAAU;EACV,YAAY;EACZ,uBAAuB;EACvB,sBAAsB;EACtB,YAAY;EACZ,WAAW;;EAEX,cAAc;EACd,iBAAiB;EACjB,kBAAkB;;EAElB,8IAA8I;AAChJ;;AAEA;EACE,qBAAqB;EACrB,YAAY;EACZ,kBAAkB;AACpB;;AAEA;EACE,cAAc;AAChB;;AAEA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;EAyCE;;AAEF;;;;;GAKG;;;AAGH;;;;;;;GAOG;;AAEH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAyCG;;;AAGH;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;GAuEG","file":"housenavbar.module.css","sourcesContent":[".header {\n  border: 1px solid black;\n  position: absolute;\n  top: 35px;\n  z-index: 0;\n  display:flex;\n  justify-content: center;\n  background-color: grey;\n  height: 35px;\n  width:100vw;\n\n  color: #FAFAFA;\n  text-align:center;\n  align-items:center;\n\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.item {\n  text-decoration: none;\n  color: white;\n  padding: 10px 20px;\n}\n\n.item:hover {\n  color: #ffe736;\n}\n\n/*\n.nav {\n  position: fixed;\n  top: 0;\n  left: 0;\n  right: 0;\n  width: 110%;\n  height: 40px;\n  background-color: #ed9e00;\n  text-align: center;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n.navbaritem {\n  color: white;\n  font-size: 20px;\n\n  list-style-type: none;\n  background-color: #ed9e00;\n  padding: 0px 50px;\n  margin: 0 auto;\n\n}\n\n.footer {\n  background-color: #c3c6c9;\n  width: 100%;\n  height: 25px;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n}\n\n.footerwords {\n  text-align: center;\n  color: white;\n  font-size: 8px;\n  margin-bottom: 15px;\n  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;\n}\n\n */\n\n/* .ul {\n  text-decoration: none;\n  list-style-type:none;\n  margin:0;\n  padding:0;\n} */\n\n\n/*\n.navList {\n  list-style-type: none;\n  background-color: #A51C30;\n  padding: 0px 40px;\n  margin: 0 auto;\n  border-bottom: 1px solid black;\n} */\n\n/*\n\n.navSubList {\n  position: absolute;\n  display: none;\n  list-style-type: none;\n  top: 100%;\n  min-width: 100%;\n}\n\n.navListSubLi {\n  background-color: black;\n  white-space: nowrap;\n  min-width: 100%;\n}\n\n.navListLi {\n  display: inline-block;\n  margin: 0px 20px;\n  position: relative;\n}\n\n.navListA, .navSubListA {\n  text-decoration: none;\n  display: block;\n  text-align: left;\n  color: white;\n  padding: 20px;\n}\n\n.navListA:hover, .navSubListA:hover {\n  color: white;\n  cursor: pointer;\n}\n\n.navListA:hover {\n  background-color: #851526;\n}\n\n.navSubListA:hover {\n  background-color: #851526;\n} */\n\n\n/*\n.navListCollapse {\n  display: none;\n  float: right;\n  margin: 10px;\n}\n\n.navListCollapse:hover {\n  cursor: pointer\n}\n\n.expandItem {\n  display: none;\n  position: absolute;\n  top: 0px;\n  height: 29px;\n  padding: 15px 10px;\n  right: 0px;\n}\n\n.expandItem:hover {\n  cursor: pointer\n}\n\n.expandItem:hover {\n  background-color: #851526;\n}\n\n.navImage {\n  display: none;\n  margin: 5px;\n}\n\n@media (max-width: 800px) {\n  .navImage {\n    display: inline-block;\n  }\n  .navListLi {\n    display: none;\n    margin: 0;\n    border-top: 1px solid black\n  }\n  .expandItem {\n    display: block;\n  }\n  .navListLi.open {\n    display: block;\n  }\n  .navList {\n    padding: 0;\n  }\n  .navSubList {\n    position: static;\n    display: none;\n  }\n  .navSubList.expanded {\n    display: block;\n  }\n  .navListCollapse {\n    display: inline-block;\n  }\n}\n\n@media (min-width: 800px) {\n  .navListLi:hover .navSubList {\n    display: block;\n  }\n  .navListLiRight {\n    float: right;\n  }\n\n} */\n"]}]);
 // Exports
 exports.locals = {
 	"header": "housenavbar_header__2pPmV",
@@ -30676,10 +30676,10 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       var comments = this.getComments();
       var commentNodes;
-      var buttonText = 'Show Comments';
+      var buttonText = 'Show Reviews';
 
       if (this.state.showComments) {
-        buttonText = 'Hide Comments';
+        buttonText = 'Hide Reviews';
         commentNodes = __jsx("div", {
           className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentlist,
           __self: this,
@@ -30723,14 +30723,7 @@ var CommentBox = /*#__PURE__*/function (_React$Component) {
           lineNumber: 32,
           columnNumber: 9
         }
-      }, buttonText), __jsx("h3", {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35,
-          columnNumber: 9
-        }
-      }, "Comments"), __jsx("h4", {
+      }, buttonText), __jsx("h4", {
         className: _comments_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.commentcount,
         __self: this,
         __source: {
@@ -31049,588 +31042,268 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 function HouseInfo() {
+  var _this = this;
+
+  var houses = [{
+    id: 1,
+    nameimg: 'old.png',
+    name: 'Dunster',
+    namedafter: 'Henry Dunster',
+    namedafterimg: 'president.png',
+    facultydeans: 'Cheryl Chen'
+  }];
+  var houseList = houses.map(function (house) {
+    return __jsx("div", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.boxes,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 19,
+        columnNumber: 9
+      }
+    }, __jsx("div", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 13
+      }
+    }, __jsx("div", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: house.nameimg,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 48
+      }
+    })), __jsx("div", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 17
+      }
+    }, __jsx("p", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 22
+      }
+    }, "Name"), __jsx("p", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 59
+      }
+    }, house.name))), __jsx("div", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24,
+        columnNumber: 13
+      }
+    }, __jsx("div", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 17
+      }
+    }, __jsx("img", {
+      src: house.namedafterimg,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25,
+        columnNumber: 48
+      }
+    })), __jsx("div", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 17
+      }
+    }, __jsx("p", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 22
+      }
+    }, "Named After"), __jsx("p", {
+      className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26,
+        columnNumber: 66
+      }
+    }, house.namedafter))));
+  });
   return __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.boxes,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 5
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
+      lineNumber: 33,
       columnNumber: 9
     }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/old.png",
-    zIndex: -10,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 21
-    }
-  }, "Named After"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 21
-    }
-  }, "Henry Dunster"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/president.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 21
-    }
-  }, "Faculty Deans"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 21
-    }
-  }, "Sean Kelly", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 59
-    }
-  }), "Cheryl Chen"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/woman.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 21
-    }
-  }, "Resident Deans"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36,
-      columnNumber: 21
-    }
-  }, "Michael Uy"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 41,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/student.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 42,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45,
-      columnNumber: 21
-    }
-  }, "Residents' Nickname"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 46,
-      columnNumber: 21
-    }
-  }, "Meece"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 50,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 51,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/team.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 52,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55,
-      columnNumber: 21
-    }
-  }, "Famous Alumni"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56,
-      columnNumber: 21
-    }
-  }, "Al Gore"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 60,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/architect.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61,
-      columnNumber: 44
-    }
-  })), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62,
-      columnNumber: 13
-    }
-  }, "Established"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63,
-      columnNumber: 13
-    }
-  }, "1930")), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 66,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 67,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/population.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 71,
-      columnNumber: 21
-    }
-  }, "Population"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 72,
-      columnNumber: 21
-    }
-  }, "400"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 76,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 77,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/money.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 78,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 80,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 81,
-      columnNumber: 21
-    }
-  }, "HOCO Budget"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 82,
-      columnNumber: 21
-    }
-  }, "$26,000"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 87,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 88,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/birthday.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 89,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 91,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 92,
-      columnNumber: 21
-    }
-  }, "Must-see Event"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 21
-    }
-  }, "Goat Roast", __jsx("br", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 93,
-      columnNumber: 59
-    }
-  }), "Fall Hoedown"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 97,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 98,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/infrastructure.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 99,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 101,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 102,
-      columnNumber: 21
-    }
-  }, "Neighborhood"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 103,
-      columnNumber: 21
-    }
-  }, "River East"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 109,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 110,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/pooja.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 111,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 113,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 114,
-      columnNumber: 21
-    }
-  }, "Mascot"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 115,
-      columnNumber: 21
-    }
-  }, "Moose"))), __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.box,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 119,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.pics,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 120,
-      columnNumber: 13
-    }
-  }, __jsx("img", {
-    src: "/property.png",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 121,
-      columnNumber: 17
-    }
-  })), __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 123,
-      columnNumber: 13
-    }
-  }, __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.name,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 124,
-      columnNumber: 21
-    }
-  }, "Chill At"), __jsx("a", {
-    className: _houseinfo_module_css__WEBPACK_IMPORTED_MODULE_1___default.a.bio,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 125,
-      columnNumber: 21
-    }
-  }, "Dunster Grille"))));
-}
+  }, houseList);
+} //   renderNamedAfter(info) {
+//     return (
+//         <div className={styles.boxes}>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src={info.named.imgsrc}></img>
+//                 </div>
+//             <div>
+//                 <p className = {styles.name}>{info.named.title}</p>
+//                 <p className = {styles.bio}>{info.named.bio}</p>
+//              </div>
+//          </div>
+//      </div>
+//     );
+//   }
+//   return (
+//     <div className={styles.boxes}>
+//         <div className = {styles.box}>
+//             <div className = {styles.pics}>
+//                 <img src="/old.png"></img>
+//             </div>
+//             <div>
+//                     <a className = {styles.name}>Named After</a>
+//                     <a className = {styles.bio}>Henry Dunster</a>
+//             </div>
+//         </div>
+//     </div>
+//     render () {
+//         return (
+//         <div className={styles.boxes}>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/old.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Named After</a>
+//                         <a className = {styles.bio}>{this.houses.map(this.renderInfo)}</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/president.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Faculty Deans</a>
+//                         {/* <a className = {styles.bio}>Sean Kelly<br/>Cheryl Chen</a> */}
+//                         <a className = {styles.bio}>{this.houses.map(this.renderFaculty)}</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/woman.png"></img>
+//                 </div>
+//                 <div>
+//                         <p className = {styles.name}>Resident Deans</p>
+//                         <p className = {styles.bio}>Michael Uy</p>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/student.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Residents' Nickname</a>
+//                         <a className = {styles.bio}>Meece</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/team.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Famous Alumni</a>
+//                         <a className = {styles.bio}>Al Gore</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}><img src="/architect.png"></img></div>
+//                 <a className = {styles.name}>Established</a>
+//                 <a className = {styles.bio}>1930</a>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/population.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Population</a>
+//                         <a className = {styles.bio}>400</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/money.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>HOCO Budget</a>
+//                         <a className = {styles.bio}>$26,000</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/birthday.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Must-see Event</a>
+//                         <a className = {styles.bio}>Goat Roast<br/>Fall Hoedown</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/infrastructure.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Neighborhood</a>
+//                         <a className = {styles.bio}>River East</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/pooja.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Mascot</a>
+//                         <a className = {styles.bio}>Moose</a>
+//                 </div>
+//             </div>
+//             <div className = {styles.box}>
+//                 <div className = {styles.pics}>
+//                     <img src="/property.png"></img>
+//                 </div>
+//                 <div>
+//                         <a className = {styles.name}>Chill At</a>
+//                         <a className = {styles.bio}>Dunster Grille</a>
+//                 </div>
+//             </div>
+//         </div>
+//   );
+//         }
+//}
 
 /***/ }),
 
@@ -31868,240 +31541,323 @@ if (true) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return HouseNavBar; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./housenavbar.module.css */ "./pages/house/housenavbar.module.css");
-/* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime/helpers/esm/defineProperty */ "./node_modules/@babel/runtime/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./housenavbar.module.css */ "./pages/house/housenavbar.module.css");
+/* harmony import */ var _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10__);
+
+
+
+
+
+
+
 var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/housenavbar.js";
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
+
+function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
 
- //
-// import {
-//   BrowserRouter as Router,
-//   Route,
-// } from 'react-router-dom';
-//
-// import * as ROUTES from '../constants/routes'
 
-function HouseNavBar(_ref) {
-  var children = _ref.children,
-      _ref$title = _ref.title,
-      title = _ref$title === void 0 ? 'This is the default title' : _ref$title;
-  return __jsx("div", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14,
-      columnNumber: 5
+
+
+var HouseNavBar = /*#__PURE__*/function (_React$Component) {
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(HouseNavBar, _React$Component);
+
+  var _super = _createSuper(HouseNavBar);
+
+  function HouseNavBar(props) {
+    var _this;
+
+    Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, HouseNavBar);
+
+    _this = _super.call(this, props);
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "clickAdams", function () {
+      _this.setState({
+        adams: true,
+        cabot: false,
+        currier: false,
+        dunster: false
+      });
+    });
+
+    Object(_babel_runtime_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this), "clickCabot", function () {
+      _this.setState({
+        adams: false,
+        cabot: true,
+        currier: false,
+        dunster: false
+      });
+    });
+
+    _this.state = {
+      adams: false,
+      cabot: false,
+      currier: false,
+      dunster: false
+    };
+    return _this;
+  }
+
+  Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(HouseNavBar, [{
+    key: "render",
+    value: function render() {
+      return __jsx("div", {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38,
+          columnNumber: 5
+        }
+      }, __jsx("div", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.header,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39,
+          columnNumber: 9
+        }
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/adams",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40,
+          columnNumber: 33
+        }
+      }, "Adams")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/cabot",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41,
+          columnNumber: 33
+        }
+      }, "Cabot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/currier",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42,
+          columnNumber: 35
+        }
+      }, "Currier")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/house",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43,
+          columnNumber: 33
+        }
+      }, "Dunster")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/eliot",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44,
+          columnNumber: 33
+        }
+      }, "Eliot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/kirkland",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45,
+          columnNumber: 36
+        }
+      }, "Kirkland")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/leverett",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46,
+          columnNumber: 36
+        }
+      }, "Leverett")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/lowell",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 47,
+          columnNumber: 34
+        }
+      }, "Lowell")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/mather",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48,
+          columnNumber: 34
+        }
+      }, "Mather")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/pforzheimer",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49,
+          columnNumber: 39
+        }
+      }, "Pforzheimer")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/quincy",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50,
+          columnNumber: 34
+        }
+      }, "Quincy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/winthrop",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 13
+        }
+      }, __jsx("a", {
+        className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_10___default.a.item,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 51,
+          columnNumber: 36
+        }
+      }, "Winthrop"))), children);
     }
-  }, __jsx("div", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.header,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 9
-    }
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16,
-      columnNumber: 34
-    }
-  }, "Adams")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/signup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 40
-    }
-  }, "Cabot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/search",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 40
-    }
-  }, "Currier")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/house",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19,
-      columnNumber: 39
-    }
-  }, "Dunster")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 37
-    }
-  }, "Eliot")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/profile",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 41
-    }
-  }, "Kirkland")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 34
-    }
-  }, "Leverett")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/signup",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23,
-      columnNumber: 40
-    }
-  }, "Lowell")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/search",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 40
-    }
-  }, "Mather")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/house",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25,
-      columnNumber: 39
-    }
-  }, "Pforzheimer")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/faq",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 37
-    }
-  }, "Quincy")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/profile",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 19
-    }
-  }, __jsx("a", {
-    className: _housenavbar_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.item,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 41
-    }
-  }, "Winthrop"))), children);
-}
+  }]);
+
+  return HouseNavBar;
+}(react__WEBPACK_IMPORTED_MODULE_7___default.a.Component({
+  children: children
+})); // import Link from 'next/link'
+// import Head from 'next/head'
+// import styles from './housenavbar.module.css';
+// export default function HouseNavBar({children}) {
+//   return (
+//     <div>
+//         <div className = {styles.header}>
+//           <Link href="/"><a className = {styles.item}>Adams</a></Link>
+//           <Link href="/signup"><a className = {styles.item}>Cabot</a></Link>
+//           <Link href="/search"><a className = {styles.item}>Currier</a></Link>
+//           <Link href="/house"><a className = {styles.item}>Dunster</a></Link>
+//           <Link href="/faq"><a className = {styles.item}>Eliot</a></Link>
+//           <Link href="/profile"><a className = {styles.item}>Kirkland</a></Link>
+//           <Link href="/"><a className = {styles.item}>Leverett</a></Link>
+//           <Link href="/signup"><a className = {styles.item}>Lowell</a></Link>
+//           <Link href="/search"><a className = {styles.item}>Mather</a></Link>
+//           <Link href="/house"><a className = {styles.item}>Pforzheimer</a></Link>
+//           <Link href="/faq"><a className = {styles.item}>Quincy</a></Link>
+//           <Link href="/profile"><a className = {styles.item}>Winthrop</a></Link>
+//         </div>
+//       {children}
+//     </div>
+//   )
+// }
+
+
+
 
 /***/ }),
 
@@ -32520,135 +32276,53 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
 function HouseVideo() {
+  var _this = this;
+
+  var videos = ['https://www.youtube.com/embed/4itZalWyH70', 'https://www.youtube.com/embed/nq7y1GkaV30', 'https://www.youtube.com/embed/JwKQXzG-dLM', 'https://www.youtube.com/embed/HMZRvabwjZ8', 'https://www.youtube.com/embed/URGEP5YFoIY', 'https://www.youtube.com/embed/zhUTE7sBHRc', 'https://www.youtube.com/embed/QqffgR8XIuE', 'https://www.youtube.com/embed/l0JEMXfJ1rM'];
+  var videoList = videos.map(function (video) {
+    return __jsx("div", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20,
+        columnNumber: 7
+      }
+    }, __jsx("div", {
+      className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21,
+        columnNumber: 9
+      }
+    }), __jsx("center", {
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22,
+        columnNumber: 9
+      }
+    }, __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
+      width: "1280",
+      height: "680" //790-40 from nav bar
+      ,
+      src: video,
+      __self: _this,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23,
+        columnNumber: 11
+      }
+    })));
+  });
   return __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.all,
     __self: this,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 1
+      lineNumber: 33,
+      columnNumber: 7
     }
-  }, __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10,
-      columnNumber: 5
-    }
-  }), __jsx("center", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 5
-    }
-  }, __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1280",
-    height: "680" //790-40 from nav bar
-    ,
-    src: "https://www.youtube.com/embed/4itZalWyH70",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17,
-      columnNumber: 5
-    }
-  }), __jsx("center", {
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 5
-    }
-  }, __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1280",
-    height: "680" //790-40 from nav bar
-    ,
-    src: "https://www.youtube.com/embed/nq7y1GkaV30",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 13
-    }
-  })), __jsx("div", {
-    className: _housevideo_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.filler,
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/JwKQXzG-dLM",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/HMZRvabwjZ8",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/URGEP5YFoIY",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 35,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/zhUTE7sBHRc",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/QqffgR8XIuE",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43,
-      columnNumber: 5
-    }
-  }), __jsx(react_iframe__WEBPACK_IMPORTED_MODULE_0__["default"], {
-    width: "1440",
-    height: "750",
-    src: "https://www.youtube.com/embed/l0JEMXfJ1rM",
-    __self: this,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 47,
-      columnNumber: 5
-    }
-  }));
+  }, videoList);
 }
 
 /***/ }),
@@ -32726,33 +32400,35 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return House; });
 /* harmony import */ var _babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
 /* harmony import */ var _babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
-/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
-/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
-/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var _house_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./house.module.css */ "./pages/house/house.module.css");
-/* harmony import */ var _house_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_house_module_css__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-player */ "./node_modules/react-player/lib/index.js");
-/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react_player__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-bootstrap/Carousel */ "./node_modules/react-bootstrap/esm/Carousel.js");
-/* harmony import */ var _styles_layout_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../styles/layout.js */ "./styles/layout.js");
-/* harmony import */ var _housenavbar_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./housenavbar.js */ "./pages/house/housenavbar.js");
-/* harmony import */ var _housetab_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./housetab.js */ "./pages/house/housetab.js");
-/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
+/* harmony import */ var _babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _house_module_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./house.module.css */ "./pages/house/house.module.css");
+/* harmony import */ var _house_module_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(_house_module_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-player */ "./node_modules/react-player/lib/index.js");
+/* harmony import */ var react_player__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_player__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_bootstrap_Carousel__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-bootstrap/Carousel */ "./node_modules/react-bootstrap/esm/Carousel.js");
+/* harmony import */ var _styles_layout_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../styles/layout.js */ "./styles/layout.js");
+/* harmony import */ var _housenavbar_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./housenavbar.js */ "./pages/house/housenavbar.js");
+/* harmony import */ var _housetab_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./housetab.js */ "./pages/house/housetab.js");
+/* harmony import */ var _material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @material-ui/core/CssBaseline */ "./node_modules/@material-ui/core/esm/CssBaseline/index.js");
+
 
 
 
 
 
 var _jsxFileName = "/Users/teddylin/Desktop/harvard-houses/pages/house/index.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
+var __jsx = react__WEBPACK_IMPORTED_MODULE_9___default.a.createElement;
 
-function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3__["default"])(this, result); }; }
+function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = Object(_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return Object(_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
 
@@ -32768,63 +32444,92 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 var House = /*#__PURE__*/function (_React$Component) {
-  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_2__["default"])(House, _React$Component);
+  Object(_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_3__["default"])(House, _React$Component);
 
   var _super = _createSuper(House);
 
   function House(props) {
+    var _this;
+
     Object(_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, House);
 
-    return _super.call(this, props);
+    _this = _super.call(this, props);
+    _this.houses = [{
+      name: "Mather",
+      url: "/dunster.jpg"
+    }];
+    _this.renderImage = _this.renderImage.bind(Object(_babel_runtime_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2__["default"])(_this));
+    return _this;
   }
 
   Object(_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(House, [{
-    key: "render",
-    value: function render() {
-      return __jsx(_styles_layout_js__WEBPACK_IMPORTED_MODULE_11__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20,
-          columnNumber: 9
-        }
-      }, __jsx(_housenavbar_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21,
-          columnNumber: 11
-        }
-      }), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 22,
-          columnNumber: 13
-        }
-      }, __jsx("div", {
-        className: _house_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.background,
-        id: "top",
-        __self: this,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23,
-          columnNumber: 19
-        }
-      }, __jsx("div", {
-        className: _house_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.container,
+    key: "renderImage",
+    value: function renderImage(house) {
+      return __jsx("div", {
+        className: _house_module_css__WEBPACK_IMPORTED_MODULE_8___default.a.blockdimage,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24,
-          columnNumber: 21
+          columnNumber: 7
         }
-      }, __jsx("h1", {
-        className: _house_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.blockdtitle,
+      }, __jsx("img", {
+        src: house.url,
         __self: this,
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25,
+          columnNumber: 9
+        }
+      }));
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      return __jsx(_styles_layout_js__WEBPACK_IMPORTED_MODULE_12__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 32,
+          columnNumber: 9
+        }
+      }, __jsx(_housenavbar_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 33,
+          columnNumber: 11
+        }
+      }), __jsx(_material_ui_core_CssBaseline__WEBPACK_IMPORTED_MODULE_15__["default"], {
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 34,
+          columnNumber: 13
+        }
+      }, __jsx("div", {
+        className: _house_module_css__WEBPACK_IMPORTED_MODULE_8___default.a.background,
+        id: "top",
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 35,
+          columnNumber: 19
+        }
+      }, __jsx("div", {
+        className: _house_module_css__WEBPACK_IMPORTED_MODULE_8___default.a.container,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 36,
+          columnNumber: 21
+        }
+      }, __jsx("h1", {
+        className: _house_module_css__WEBPACK_IMPORTED_MODULE_8___default.a.blockdtitle,
+        __self: this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37,
           columnNumber: 25
         }
       }, "Dunster"), __jsx("a", {
@@ -32833,23 +32538,22 @@ var House = /*#__PURE__*/function (_React$Component) {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
+          lineNumber: 38,
           columnNumber: 25
         }
-      }, __jsx("img", {
-        className: _house_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.blockdimage,
-        src: "/dunster.jpg",
+      }, __jsx("div", {
+        className: _house_module_css__WEBPACK_IMPORTED_MODULE_8___default.a.blockdimage,
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26,
-          columnNumber: 80
+          lineNumber: 39,
+          columnNumber: 27
         }
-      }))), __jsx(_housetab_js__WEBPACK_IMPORTED_MODULE_13__["default"], {
+      }, this.houses.map(this.renderImage)))), __jsx(_housetab_js__WEBPACK_IMPORTED_MODULE_14__["default"], {
         __self: this,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 28,
+          lineNumber: 44,
           columnNumber: 25
         }
       }))));
@@ -32857,7 +32561,7 @@ var House = /*#__PURE__*/function (_React$Component) {
   }]);
 
   return House;
-}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_9___default.a.Component);
 
 
 
@@ -33052,7 +32756,7 @@ if (true) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 2:
 /*!***********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fhouse&absolutePagePath=%2FUsers%2Fteddylin%2FDesktop%2Fharvard-houses%2Fpages%2Fhouse%2Findex.js ***!
   \***********************************************************************************************************************************************/
@@ -33075,5 +32779,5 @@ module.exports = dll_2adc2403d89adc16ead0;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]);
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=house.js.map
